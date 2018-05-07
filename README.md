@@ -14,8 +14,7 @@ Package Control coming soon!
 {
 	"color_scheme": "Packages/Circus Freak/Circus Freak.sublime-color-scheme",
 	"theme": "Circus Freak.sublime-theme",
-	
-	// AVAILABLE OPTIONS
+
 	"circus_accent_red": false,
 	"circus_accent_yellow": false,
 	"circus_accent_blue": false,
@@ -23,7 +22,7 @@ Package Control coming soon!
 	"circus_accent_pink": false
 }
 ```
-Simply set one of the ```circus_accent``` values to ```true```.  This will recolour most of the interface buttons, as well as the sidebar file icons.
+Simply set one of the ```circus_accent``` values to ```true```.  This will recolour the interface buttons, as well as the sidebar file icons.
 
 If no accent color is specified, the icons will default to grey with occasional red accenting.
 
