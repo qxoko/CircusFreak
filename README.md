@@ -20,6 +20,6 @@ Simply set one of the ```circus_accent``` values to ```true```. If no accent col
 ###### CREDITATION
 Circus Freak's UI theme is a modified [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
 
-~~Circus Freak's colour scheme is a modified [Galea](https://packagecontrol.io/packages/Theme%20-%20Centurion).~~
+~~Circus Freak's colour scheme is a modified [Centurion Galea](https://packagecontrol.io/packages/Theme%20-%20Centurion).~~
 
 Circus Freak's colour scheme is now a ground-up rebuild in the new ```sublime-color-scheme``` format.  The ```tmTheme``` version is not available in this repository.
