@@ -1,7 +1,7 @@
 {
 	"name": "Circus Freak",
 	"author": "Harley Denham",
-	"version": "0.2.1",
+	"version": "0.2.2",
 
 	"variables":
 	{
@@ -35,7 +35,7 @@
 		"selection": "#323334",
 		"brackets_options": "underline",
 		"brackets_foreground": "var(comment)",
-		"misspelling": "var(red)",
+		"misspelling": "var(comment)",
 		"fold_marker": "var(blue)",
 		"minimap_border": "var(fg)",
 		"accent": "var(red)",
@@ -108,11 +108,123 @@
 			"foreground": "var(green)",
 			"font_style": "italic"
 		},
-		// {
-		// 	"name": "Punctuation",
-		// 	"scope": "punctuation",
-		// 	"foreground": "#999"
-		// }
+		{
+			"name": "Logical Operators",
+			"scope": "keyword.operator.logical",
+			"foreground": "var(purple)"
+		},
+
+		// MARKDOWN @incomplete
+		{
+			"name": "Markdown Code Blocks",
+			"scope": "markup.raw",
+			"foreground": "var(purple)"
+		},
+		{
+			"name": "Markdown Lists",
+			"scope": "punctuation.definition.list_item.markdown",
+			"foreground": "var(pink)"
+		},
+		{
+			"name": "Markdown Links",
+			"scope": "markup.underline.link",
+			"foreground": "var(yellow)"
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": "markup.italic",
+			"font_style": "italic",
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": "markup.bold",
+			"font_style": "bold",
+		},
+		{
+			"name": "Markup Lock Formatters",
+			"scope": "text.html.markdown punctuation.definition",
+			"font_style": "none",
+			"foreground": "var(comment)"
+		},
+
+		// FOUNTAIN @incomplete
+		// OPTIMISED FOR FOUNTAINHEAD PACKAGE
+		{
+			"name": "Scenes",
+			"scope": "text.fountain entity.name.function",
+			"foreground": "var(bg)",
+			"background": "var(fg)",
+			"selection_foreground": "var(fg)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Characters",
+			"scope": "text.fountain string",
+			"font_style": "none",
+			"foreground": "var(red)"
+		},
+		{
+			"name": "Parentheticals",
+			"scope": "text.fountain entity.other.inherited-class",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "Dialogue",
+			"scope": "text.fountain dialogue",
+			"foreground": "var(fg)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Section",
+			"scope": "text.fountain entity.name.filename",
+			"foreground": "var(purple)"
+		},
+		{
+			"name": "Synopses",
+			"scope": "text.fountain meta.diff",
+			"foreground": "var(comment)",
+			"font_style": "none"
+		},
+		{
+			"name": "Notes",
+			"scope": "text.fountain variable.parameter",
+			"foreground": "var(yellow)",
+			"font_style": "none"
+		},
+		{
+			"name": "Page Break",
+			"scope": "text.fountain support.function",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Title",
+			"scope": "text.fountain constant.numeric",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Transition",
+			"scope": "text.fountain entity.name.tag",
+			"foreground": "var(blue)"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.fountain markup.changed",
+			"font_style": "bold"
+		},
+		{
+			"name": "Italics",
+			"scope": "text.fountain message.error",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Italics",
+			"scope": "text.fountain markup.inserted",
+			"font_style": "bold italic"
+		},
+		{
+			"scope": "text.fountain punctuation",
+			"foreground": "var(comment)"
+		},
 
 		// JSON KEYS
 		// IF SOMEONE HAS A BETTER WAY
