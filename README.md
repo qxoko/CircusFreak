@@ -3,6 +3,13 @@
 
 ![](screenshots/sublime.png)
 
+The screenshot font is SF Mono.
+
+###### FOCUS
+Circus Freak was created with Python, Lua, Markdown and Fountain in mind.  It also has specific JSON highlighting for reading ```.sublime``` configuration files.
+
+Circus Freak will soon have specific highlighting for HTML, CSS, Javascript and the C family.
+
 ###### INSTALLATION & SETTINGS
 Package Control coming soon!
 
