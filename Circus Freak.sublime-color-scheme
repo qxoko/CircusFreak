@@ -111,7 +111,8 @@
 		{
 			"name": "Logical Operators",
 			"scope": "keyword.operator.logical",
-			"foreground": "var(purple)"
+			"foreground": "var(blue)",
+			"font_style": "italic"
 		},
 
 		// MARKDOWN @incomplete
