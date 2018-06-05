@@ -1,7 +1,7 @@
 {
-	"name": "Circus Freak",
+	"name": "Mystery",
 	"author": "Harley Denham",
-	"version": "0.2.2",
+	"version": "0.0.1",
 
 	"variables":
 	{
@@ -10,12 +10,12 @@
 		"comment": "#666666",
 		"dark": "#18191A",
 		"light": "#272829",
-		"yellow": "#FFBA67",
-		"pink": "#E67394",
-		"red": "#FD4B70",
-		"blue": "#84CAD3",
-		"purple": "#AE81AA",
-		"green": "#9CDC67",
+		"deep_purple": "#767ca1",
+		"red": "#bc506d",
+		"pale_green": "#d3daa6",
+		"teal": "#3090a2",
+		"green": "#68b1a2",
+		"purple": "#946c96",
 	},
 
 	"globals":
@@ -27,7 +27,7 @@
 		"gutter": "var(bg)",
 		"gutter_foreground": "var(comment)",
 		"highlight": "var(comment)",
-		"find_highlight": "var(red)",
+		"find_highlight": "var(deep_purple)",
 		"find_highlight_foreground": "var(bg)",
 		"guide": "var(light)",
 		"active_guide": "var(comment)",
@@ -36,11 +36,11 @@
 		"brackets_options": "underline",
 		"brackets_foreground": "var(comment)",
 		"misspelling": "var(comment)",
-		"fold_marker": "var(blue)",
+		"fold_marker": "var(teal)",
 		"minimap_border": "var(fg)",
-		"accent": "var(red)",
+		"accent": "var(deep_purple)",
 		"shadow": "#18191A",
-		"shadow_width": "10",
+		"shadow_width": "10"
 	},
 	"rules":
 	[
@@ -58,37 +58,37 @@
 		{
 			"name": "String",
 			"scope": "string",
-			"foreground": "var(yellow)",
+			"foreground": "var(pale_green)",
 		},
 		{
 			"name": "Numbers",
 			"scope": "constant.numeric",
-			"foreground": "var(pink)",
+			"foreground": "var(red)",
 		},
 		{
 			"name": "Constants",
 			"scope": "constant.language",
-			"foreground": "var(pink)"
+			"foreground": "var(red)"
 		},
 		{
 			"name": "Keywords",
 			"scope": "keyword.control",
-			"foreground": "var(red)"
+			"foreground": "var(deep_purple)"
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
-			"foreground": "var(red)",
+			"foreground": "var(deep_purple)",
 		},
 		{
 			"name": "Declared Entity",
 			"scope": "entity",
-			"foreground": "var(blue)"
+			"foreground": "var(teal)"
 		},
 		{
 			"name": "Function Arguments",
 			"scope": "variable.parameter",
-			"foreground": "var(yellow)",
+			"foreground": "var(pale_green)",
 			"font_style": "italic"
 		},
 		{
@@ -111,7 +111,7 @@
 		{
 			"name": "Logical Operators",
 			"scope": "keyword.operator.logical",
-			"foreground": "var(blue)",
+			"foreground": "var(teal)",
 			"font_style": "italic"
 		},
 
@@ -124,12 +124,12 @@
 		{
 			"name": "Markdown Lists",
 			"scope": "punctuation.definition.list_item.markdown",
-			"foreground": "var(pink)"
+			"foreground": "var(red)"
 		},
 		{
 			"name": "Markdown Links",
 			"scope": "markup.underline.link",
-			"foreground": "var(yellow)"
+			"foreground": "var(pale_green)"
 		},
 		{
 			"name": "Markdown Italic",
@@ -162,7 +162,7 @@
 			"name": "Characters",
 			"scope": "text.fountain string",
 			"font_style": "none",
-			"foreground": "var(red)"
+			"foreground": "var(deep_purple)"
 		},
 		{
 			"name": "Parentheticals",
@@ -189,7 +189,7 @@
 		{
 			"name": "Notes",
 			"scope": "text.fountain variable.parameter",
-			"foreground": "var(yellow)",
+			"foreground": "var(pale_green)",
 			"font_style": "none"
 		},
 		{
@@ -205,7 +205,7 @@
 		{
 			"name": "Transition",
 			"scope": "text.fountain entity.name.tag",
-			"foreground": "var(blue)"
+			"foreground": "var(teal)"
 		},
 		{
 			"name": "Bold",

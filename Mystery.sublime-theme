@@ -6,22 +6,22 @@
 // [31, 32, 33] // darker
 // [24, 25, 26] // darkest
 
-// [253, 75, 112] // red
-// [255, 186, 103] // yellow
-// [174, 129, 170] // purple
-// [132, 202, 211] // blue
-// [230, 115, 148] // pink
+// [118,124,161] // red
+// [211,218,166] // yellow
+// [148,108,150] // purple
+// [48,144,162] // blue
+// [104,177,162] // pink
 
 // [221, 221, 221] // text
 // [151,151,151] // text-dark
 // [101, 101, 101] // text-darkest
 
 // settings
-// circus_accent_red
-// circus_accent_yellow
-// circus_accent_purple
-// circus_accent_blue
-// circus_accent_pink
+// mystery_accent_red
+// mystery_accent_yellow
+// mystery_accent_purple
+// mystery_accent_blue
+// mystery_accent_pink
 
 //
 // TITLE BAR
@@ -130,7 +130,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
-        "layer0.tint": [253, 75, 112], // red
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1
     },
     // Tab dirty button
@@ -146,93 +146,93 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [253, 75, 112], // red
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1
     },
     // Tab highlight button
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_red"],
+        "settings": ["mystery_accent_red"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [253, 75, 112], // red
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_red"],
+        "settings": ["mystery_accent_red"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [253, 75, 112], // red
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_yellow"],
+        "settings": ["mystery_accent_yellow"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [255, 186, 103], // yellow
+        "layer0.tint": [211,218,166], // yellow
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_yellow"],
+        "settings": ["mystery_accent_yellow"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [255, 186, 103], // yellow
+        "layer0.tint": [211,218,166], // yellow
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_purple"],
+        "settings": ["mystery_accent_purple"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [174, 129, 170], // purple
+        "layer0.tint": [148,108,150], // purple
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_purple"],
+        "settings": ["mystery_accent_purple"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [174, 129, 170], // purple
+        "layer0.tint": [148,108,150], // purple
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_blue"],
+        "settings": ["mystery_accent_blue"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [132, 202, 211], // blue
+        "layer0.tint": [48,144,162], // blue
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_blue"],
+        "settings": ["mystery_accent_blue"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [132, 202, 211], // blue
+        "layer0.tint": [48,144,162], // blue
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_pink"],
+        "settings": ["mystery_accent_pink"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [230, 115, 148], // pink
+        "layer0.tint": [104,177,162], // pink
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "settings": ["circus_accent_pink"],
+        "settings": ["mystery_accent_pink"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "User/Circus Freak/ui/close.png",
         "attributes": ["hover"],
-        "layer0.tint": [230, 115, 148], // pink
+        "layer0.tint": [104,177,162], // pink
         "layer0.opacity": 1,
     },
 
@@ -243,7 +243,9 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [151,151,151] // text-dark
+        "fg": [151,151,151], // text-dark
+        "font.face": "SF Mono Light",
+        "font.size": 12
     },
     {
         "class": "tab_label",
@@ -621,7 +623,8 @@
     {
         "class": "sidebar_heading",
         "color": [151,151,151], // text-dark
-        "font.bold": true
+        "font.face": "SF Mono Light",
+        "font.size": 12,
     },
     // Sidebar heading selected
     {
@@ -633,7 +636,9 @@
         "class": "sidebar_label",
         "color": [101, 101, 101], // text-darkest
         "font.bold": false,
-        "font.italic": false
+        "font.italic": false,
+        "font.face": "SF Mono Light",
+        "font.size": 12
     },
     // Sidebar folder entry
     {
@@ -693,7 +698,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [253, 75, 112], // red
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1
     },
     // Sidebar file close hover
@@ -701,68 +706,68 @@
         "class": "close_button",
         "attributes": ["hover"],
         "layer0.texture": "User/Circus Freak/ui/close.png",
-        "layer0.tint": [253, 75, 112] // red
+        "layer0.tint": [118,124,161] // red
     },
 
     {
         "class": "close_button",
-        "settings": ["circus_accent_yellow"],
+        "settings": ["mystery_accent_yellow"],
         "attributes": ["dirty"],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [255, 186, 103], // yellow
+        "layer0.tint": [211,218,166], // yellow
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_yellow"],
+        "settings": ["mystery_accent_yellow"],
         "attributes": ["hover"],
         "layer0.texture": "User/Circus Freak/ui/close.png",
-        "layer0.tint": [255, 186, 103] // yellow
+        "layer0.tint": [211,218,166] // yellow
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_purple"],
+        "settings": ["mystery_accent_purple"],
         "attributes": ["dirty"],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [174, 129, 170], // purple
+        "layer0.tint": [148,108,150], // purple
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_purple"],
+        "settings": ["mystery_accent_purple"],
         "attributes": ["hover"],
         "layer0.texture": "User/Circus Freak/ui/close.png",
-        "layer0.tint": [174, 129, 170] // purple
+        "layer0.tint": [148,108,150] // purple
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_blue"],
+        "settings": ["mystery_accent_blue"],
         "attributes": ["dirty"],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [132, 202, 211], // blue
+        "layer0.tint": [48,144,162], // blue
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_blue"],
+        "settings": ["mystery_accent_blue"],
         "attributes": ["hover"],
         "layer0.texture": "User/Circus Freak/ui/close.png",
-        "layer0.tint": [132, 202, 211] // blue
+        "layer0.tint": [48,144,162] // blue
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_pink"],
+        "settings": ["mystery_accent_pink"],
         "attributes": ["dirty"],
         "layer0.texture": "User/Circus Freak/ui/circle.png",
-        "layer0.tint": [230, 115, 148], // pink
+        "layer0.tint": [104,177,162], // pink
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
-        "settings": ["circus_accent_pink"],
+        "settings": ["mystery_accent_pink"],
         "attributes": ["hover"],
         "layer0.texture": "User/Circus Freak/ui/close.png",
-        "layer0.tint": [230, 115, 148] // pink
+        "layer0.tint": [104,177,162] // pink
     },
 
 //
@@ -820,36 +825,36 @@
 
     {
         "class": "icon_file_type",
-        "settings": ["circus_accent_red"],
-        "layer0.tint": [253, 75, 112], // red
+        "settings": ["mystery_accent_red"],
+        "layer0.tint": [118,124,161], // red
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_file_type",
-        "settings": ["circus_accent_yellow"],
-        "layer0.tint": [255, 186, 103], // yellow
+        "settings": ["mystery_accent_yellow"],
+        "layer0.tint": [211,218,166], // yellow
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_file_type",
-        "settings": ["circus_accent_purple"],
-        "layer0.tint": [174, 129, 170], // purple
+        "settings": ["mystery_accent_purple"],
+        "layer0.tint": [148,108,150], // purple
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_file_type",
-        "settings": ["circus_accent_blue"],
-        "layer0.tint": [132, 202, 211], // blue
+        "settings": ["mystery_accent_blue"],
+        "layer0.tint": [48,144,162], // blue
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_file_type",
-        "settings": ["circus_accent_pink"],
-        "layer0.tint": [230, 115, 148], // pink
+        "settings": ["mystery_accent_pink"],
+        "layer0.tint": [104,177,162], // pink
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
@@ -1102,6 +1107,12 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [221, 221, 221] // text
     },
+    {
+        "class": "icon_regex",
+        "settings": ["mystery_accent_red"],
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [118,124,161] // red
+    },
     // Case sensitive search button
     {
         "class": "icon_case",
@@ -1115,6 +1126,12 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [221, 221, 221] // text
     },
+    {
+        "class": "icon_case",
+        "settings": ["mystery_accent_red"],
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [118,124,161] // red
+    },
     // Match whole word search button
     {
         "class": "icon_whole_word",
@@ -1127,6 +1144,12 @@
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [221, 221, 221] // text
+    },
+    {
+        "class": "icon_whole_word",
+        "settings": ["mystery_accent_red"],
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [118,124,161] // red
     },
 
 //
