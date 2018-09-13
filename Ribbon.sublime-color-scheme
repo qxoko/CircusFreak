@@ -1,0 +1,284 @@
+{
+	"name": "Mystery",
+	"author": "Harley Denham",
+	"version": "0.0.1",
+
+	"variables":
+	{
+		"fg": "#DDDDDD",
+		"bg": "#1F2021",
+		"comment": "#666666",
+		"dark": "#18191A",
+		"light": "#272829",
+		"deep_purple": "#767ca1",
+		"red": "#bc506d",
+		"pale_green": "#d3daa6",
+		"teal": "#3090a2",
+		"green": "#68b1a2",
+		"purple": "#946c96",
+	},
+
+	"globals":
+	{
+		"background": "var(bg)",
+		"foreground": "var(fg)",
+		"caret": "var(fg)",
+		"line_highlight": "var(light)",
+		"gutter": "var(bg)",
+		"gutter_foreground": "var(comment)",
+		"highlight": "var(comment)",
+		"find_highlight": "var(deep_purple)",
+		"find_highlight_foreground": "var(bg)",
+		"guide": "var(light)",
+		"active_guide": "var(comment)",
+		"stack_guide": "var(comment)",
+		"selection": "#323334",
+		"brackets_options": "underline",
+		"brackets_foreground": "var(comment)",
+		"misspelling": "var(comment)",
+		"fold_marker": "var(teal)",
+		"minimap_border": "var(fg)",
+		"accent": "var(deep_purple)",
+		"shadow": "#18191A",
+		"shadow_width": "10"
+	},
+	"rules":
+	[
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"background": "var(red)",
+			"foreground": "var(fg)",
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"foreground": "var(pale_green)",
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"foreground": "var(red)",
+		},
+		{
+			"name": "Constants",
+			"scope": "constant.language",
+			"foreground": "var(red)"
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword.control",
+			"foreground": "var(deep_purple)"
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"foreground": "var(deep_purple)",
+		},
+		{
+			"name": "Declared Entity",
+			"scope": "entity",
+			"foreground": "var(teal)"
+		},
+		{
+			"name": "Function Arguments",
+			"scope": "variable.parameter",
+			"foreground": "var(pale_green)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Self",
+			"scope": "variable.language",
+			"foreground": "var(purple)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Support Functions",
+			"scope": "support.function",
+			"foreground": "var(green)"
+		},
+		{
+			"name": "Class Inheritance",
+			"scope": "entity.other.inherited-class",
+			"foreground": "var(green)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Logical Operators",
+			"scope": "keyword.operator.logical",
+			"foreground": "var(red)",
+			"font_style": "italic"
+		},
+
+		// MARKDOWN @incomplete
+		{
+			"name": "Markdown Code Blocks",
+			"scope": "markup.raw",
+			"foreground": "var(purple)"
+		},
+		{
+			"name": "Markdown Lists",
+			"scope": "punctuation.definition.list_item.markdown",
+			"foreground": "var(red)"
+		},
+		{
+			"name": "Markdown Links",
+			"scope": "markup.underline.link",
+			"foreground": "var(pale_green)"
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": "markup.italic",
+			"font_style": "italic",
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": "markup.bold",
+			"font_style": "bold",
+		},
+		{
+			"name": "Markup Lock Formatters",
+			"scope": "text.html.markdown punctuation.definition",
+			"font_style": "none",
+			"foreground": "var(comment)"
+		},
+
+		// FOUNTAIN @incomplete
+		// OPTIMISED FOR FOUNTAINHEAD PACKAGE
+		{
+			"name": "Scenes",
+			"scope": "text.fountain entity.name.function",
+			"foreground": "var(bg)",
+			"background": "var(fg)",
+			"selection_foreground": "var(fg)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Characters",
+			"scope": "text.fountain string",
+			"font_style": "none",
+			"foreground": "var(deep_purple)"
+		},
+		{
+			"name": "Parentheticals",
+			"scope": "text.fountain entity.other.inherited-class",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "Dialogue",
+			"scope": "text.fountain dialogue",
+			"foreground": "var(fg)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Section",
+			"scope": "text.fountain entity.name.filename",
+			"foreground": "var(purple)"
+		},
+		{
+			"name": "Synopses",
+			"scope": "text.fountain meta.diff",
+			"foreground": "var(comment)",
+			"font_style": "none"
+		},
+		{
+			"name": "Notes",
+			"scope": "text.fountain variable.parameter",
+			"foreground": "var(pale_green)",
+			"font_style": "none"
+		},
+		{
+			"name": "Page Break",
+			"scope": "text.fountain support.function",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Title",
+			"scope": "text.fountain constant.numeric",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Transition",
+			"scope": "text.fountain entity.name.tag",
+			"foreground": "var(teal)"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.fountain markup.changed",
+			"font_style": "bold"
+		},
+		{
+			"name": "Italics",
+			"scope": "text.fountain message.error",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Italics",
+			"scope": "text.fountain markup.inserted",
+			"font_style": "bold italic"
+		},
+		{
+			"scope": "text.fountain punctuation",
+			"foreground": "var(comment)"
+		},
+
+		// JSON KEYS
+		// IF SOMEONE HAS A BETTER WAY
+		// PLEASE MAKE A PULL REQUEST
+		{
+			"name": "JSON Punctuation",
+			"scope": "source.json punctuation",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "JSON Key - Level 0",
+			"scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 1",
+			"scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 2",
+			"scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 3",
+			"scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 4",
+			"scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 5",
+			"scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 6",
+			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 7",
+			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		},
+		{
+			"name": "JSON Key - Level 8",
+			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"foreground": "var(fg)"
+		}
+	]
+}
