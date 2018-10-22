@@ -16,6 +16,7 @@
 		"blue": "#84CAD3",
 		"purple": "#AE81AA",
 		"green": "#9CDC67",
+		"selection": "#323334"
 	},
 
 	"globals":
@@ -32,16 +33,17 @@
 		"guide": "var(light)",
 		"active_guide": "var(comment)",
 		"stack_guide": "var(comment)",
-		"selection": "#323334",
+		"selection": "var(selection)",
 		"brackets_options": "underline",
 		"brackets_foreground": "var(comment)",
 		"misspelling": "var(comment)",
 		"fold_marker": "var(blue)",
 		"minimap_border": "var(fg)",
 		"accent": "var(red)",
-		"shadow": "#18191A",
+		"shadow": "var(dark)",
 		"shadow_width": "10",
 	},
+
 	"rules":
 	[
 		{
@@ -95,7 +97,6 @@
 			"name": "Self",
 			"scope": "variable.language",
 			"foreground": "var(purple)",
-			"font_style": "italic"
 		},
 		{
 			"name": "Support Functions",
@@ -112,19 +113,13 @@
 			"name": "Logical Operators",
 			"scope": "keyword.operator.logical",
 			"foreground": "var(blue)",
-			"font_style": "italic"
 		},
 
-		// MARKDOWN @incomplete
-		{
-			"name": "Markdown Code Blocks",
-			"scope": "markup.raw",
-			"foreground": "var(purple)"
-		},
+		// MARKDOWN PRIMITIVE
 		{
 			"name": "Markdown Lists",
 			"scope": "punctuation.definition.list_item.markdown",
-			"foreground": "var(pink)"
+			"foreground": "var(red)"
 		},
 		{
 			"name": "Markdown Links",
@@ -148,7 +143,7 @@
 			"foreground": "var(comment)"
 		},
 
-		// FOUNTAIN @incomplete
+		// FOUNTAIN
 		// OPTIMISED FOR FOUNTAINHEAD PACKAGE
 		{
 			"name": "Scenes",

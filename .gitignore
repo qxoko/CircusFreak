@@ -1,4 +1,8 @@
+# PROJECT
 old/
 icon_files/
 desktop_icon/
 development/
+
+# MAC STUFF
+.DS_Store

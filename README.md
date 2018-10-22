@@ -1,41 +1,82 @@
-# Circus Freak
-📖 A clean, dark theme for Sublime Text and iTerm
+# Circus Freak Collective
+A clean, dark theme collection for Sublime Text and iTerm
 
 ![](screenshots/sublime.png)
 
-The screenshot font is SF Mono.
+The font used in all screenshots is SF Mono.
 
-###### FOCUS
-Circus Freak was created with Python, Lua, Markdown and Fountain in mind.  It also has specific JSON highlighting for reading ```.sublime``` configuration files.
+## MANIFESTO
+Circus Freak was created with Fountain, Python and Lua in mind.  It supports [Fountainhead](https://packagecontrol.io/packages/Fountainhead).
 
-Circus Freak will soon have specific highlighting for HTML, CSS, Javascript and the C family.
+Originally a single theme, Circus Freak has now been turned into a collection.
 
-###### INSTALLATION & SETTINGS
+## INSTALLATION & SETTINGS
 Package Control coming soon!
 
 + Download the [latest release](https://github.com/thehfd/circus-freak/releases)
-+ Unzip and rename folder to Circus Freak.
-+ Move folder inside the Packages directory: ```Preferences > Browse packages...```
++ Unzip and rename folder to `Circus Freak`.
++ Move folder inside the Packages directory: `Preferences > Browse packages...`
++ Use the command palette / preferences menu to set a Circus Freak theme and scheme, or include the below into your User Preferences (replace `Mystery` with your chosen theme):
 
 ```json
 {
-	"color_scheme": "Packages/Circus Freak/Circus Freak.sublime-color-scheme",
-	"theme": "Circus Freak.sublime-theme",
-
-	"circus_accent_red": false,
-	"circus_accent_yellow": false,
-	"circus_accent_blue": false,
-	"circus_accent_purple": false,
-	"circus_accent_pink": false
+	"color_scheme": "Packages/Circus Freak/Mystery.sublime-color-scheme",
+	"theme": "Mystery.sublime-theme",
 }
 ```
-Simply set one of the ```circus_accent``` values to ```true```.  This will recolour the interface buttons, as well as the sidebar file icons.
 
-If no accent color is specified, the icons will default to grey with occasional red accenting.
+## CUSTOMISATION
+##### USER PREFERENCES
+Tweak the sidebar icon and button with the User Preferences presets below.  Not including one will default them to a shade of grey.
 
-###### CREDITATION
-Circus Freak's UI theme is a modified [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
+```json
+{
+	// Circus Freak
+	"circus_accent_red": true,
+	"circus_accent_yellow": true,
+	"circus_accent_blue": true,
+	"circus_accent_purple": true,
+	"circus_accent_pink": true,
 
-~~Circus Freak's colour scheme is a modified [Centurion Galea](https://packagecontrol.io/packages/Theme%20-%20Centurion).~~
+	// Mystery
+	"mystery_accent_red": true,
+	"mystery_accent_yellow": true,
+	"mystery_accent_blue": true,
+	"mystery_accent_purple": true,
+	"mystery_accent_green": true,
+}
+```
 
-Circus Freak's colour scheme is now a ground-up rebuild in the new ```sublime-color-scheme``` format.  The original ```tmTheme``` version is not available in this repository.
+##### FONT SETTINGS OVERRIDE
+Paste the following into a file named after your chosen UI theme, i.e: "Mystery.sublime-theme", and save it to your user directory.  This is the setting used in the screenshots above to apply SF Mono to the entire UI.
+
+```json
+[
+	{
+		"class": "tab_label",
+		"font.face": "SF Mono Light",
+		"font.size": 12,
+	},
+	{
+		"class": "sidebar_heading",
+		"font.face": "SF Mono Light",
+		"font.size": 12,
+	},
+	{
+		"class": "sidebar_label",
+		"font.face": "SF Mono Light",
+		"font.size": 12,
+	}
+]
+```
+
+##### CREDITATION
+Circus Freak's UI theme is a fork of [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
+
+##### TO DO
+Circus Freak themes are tested on large code bases that make expansive use of the syntax, to ensure the best possible highlighting is available for the most commonly used syntax packages.
+
+The below list is comprises languages that have only been minimally tested, but are otherwise fully supported.  Do not hesitate to submit an issue if \<your favourite language feature\> is found lacking in this collection.
+
++ HTML / CSS / JS
++ C / C++ / C#

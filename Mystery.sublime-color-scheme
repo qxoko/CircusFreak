@@ -1,54 +1,59 @@
 {
 	"name": "Mystery",
 	"author": "Harley Denham",
-	"version": "0.0.1",
+	"version": "0.0.4",
 
 	"variables":
 	{
-		"fg": "#DDDDDD",
-		"bg": "#1F2021",
+		"white": "#DDDDDD",
 		"comment": "#666666",
-		"dark": "#18191A",
-		"light": "#272829",
+		"halftone": "#999999",
+		"bg_lighter": "#272829",
+		"bg_grey": "#1F2021",
+		"bg_darker": "#18191A",
 		"deep_purple": "#767ca1",
 		"red": "#bc506d",
-		"pale_green": "#d3daa6",
 		"teal": "#3090a2",
+		"pink": "#D09BB3",
 		"green": "#68b1a2",
 		"purple": "#946c96",
+		"yellow": "#d3daa6",
+		"lavender": "#A5A5C1",
+		"selection": "#323334"
 	},
 
 	"globals":
 	{
-		"background": "var(bg)",
-		"foreground": "var(fg)",
-		"caret": "var(fg)",
-		"line_highlight": "var(light)",
-		"gutter": "var(bg)",
+		"background": "var(bg_grey)",
+		"foreground": "var(white)",
+		"caret": "var(white)",
+		"line_highlight": "var(bg_lighter)",
+		"gutter": "var(bg_grey)",
 		"gutter_foreground": "var(comment)",
 		"highlight": "var(comment)",
 		"find_highlight": "var(deep_purple)",
-		"find_highlight_foreground": "var(bg)",
-		"guide": "var(light)",
+		"find_highlight_foreground": "var(bg_grey)",
+		"guide": "var(bg_lighter)",
 		"active_guide": "var(comment)",
 		"stack_guide": "var(comment)",
-		"selection": "#323334",
+		"selection": "var(selection)",
 		"brackets_options": "underline",
 		"brackets_foreground": "var(comment)",
 		"misspelling": "var(comment)",
 		"fold_marker": "var(teal)",
-		"minimap_border": "var(fg)",
+		"minimap_border": "var(white)",
 		"accent": "var(deep_purple)",
-		"shadow": "#18191A",
+		"shadow": "var(bg_darker)",
 		"shadow_width": "10"
 	},
+
 	"rules":
 	[
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"background": "var(red)",
-			"foreground": "var(fg)",
+			"foreground": "var(white)",
 		},
 		{
 			"name": "Comment",
@@ -58,7 +63,7 @@
 		{
 			"name": "String",
 			"scope": "string",
-			"foreground": "var(pale_green)",
+			"foreground": "var(yellow)",
 		},
 		{
 			"name": "Numbers",
@@ -88,14 +93,13 @@
 		{
 			"name": "Function Arguments",
 			"scope": "variable.parameter",
-			"foreground": "var(pale_green)",
+			"foreground": "var(yellow)",
 			"font_style": "italic"
 		},
 		{
 			"name": "Self",
 			"scope": "variable.language",
 			"foreground": "var(purple)",
-			"font_style": "italic"
 		},
 		{
 			"name": "Support Functions",
@@ -111,16 +115,10 @@
 		{
 			"name": "Logical Operators",
 			"scope": "keyword.operator.logical",
-			"foreground": "var(teal)",
-			"font_style": "italic"
+			"foreground": "var(lavender)",
 		},
 
-		// MARKDOWN @incomplete
-		{
-			"name": "Markdown Code Blocks",
-			"scope": "markup.raw",
-			"foreground": "var(purple)"
-		},
+		// MARKDOWN PRIMITIVE
 		{
 			"name": "Markdown Lists",
 			"scope": "punctuation.definition.list_item.markdown",
@@ -129,7 +127,7 @@
 		{
 			"name": "Markdown Links",
 			"scope": "markup.underline.link",
-			"foreground": "var(pale_green)"
+			"foreground": "var(yellow)"
 		},
 		{
 			"name": "Markdown Italic",
@@ -148,14 +146,14 @@
 			"foreground": "var(comment)"
 		},
 
-		// FOUNTAIN @incomplete
-		// OPTIMISED FOR FOUNTAINHEAD PACKAGE
+		// FOUNTAIN SUPPORT
+		// DESIGNED FOR FOUNTAINHEAD PACKAGE
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
-			"foreground": "var(bg)",
-			"background": "var(fg)",
-			"selection_foreground": "var(fg)",
+			"foreground": "var(bg_grey)",
+			"background": "var(white)",
+			"selection_foreground": "var(white)",
 			"font_style": "bold"
 		},
 		{
@@ -167,45 +165,45 @@
 		{
 			"name": "Parentheticals",
 			"scope": "text.fountain entity.other.inherited-class",
-			"foreground": "var(fg)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Dialogue",
 			"scope": "text.fountain dialogue",
-			"foreground": "var(fg)",
+			"foreground": "var(white)",
 			"font_style": "italic"
 		},
 		{
 			"name": "Section",
 			"scope": "text.fountain entity.name.filename",
-			"foreground": "var(purple)"
+			"foreground": "var(red)"
 		},
 		{
 			"name": "Synopses",
 			"scope": "text.fountain meta.diff",
-			"foreground": "var(comment)",
+			"foreground": "var(halftone)",
 			"font_style": "none"
 		},
 		{
 			"name": "Notes",
 			"scope": "text.fountain variable.parameter",
-			"foreground": "var(pale_green)",
+			"foreground": "var(halftone)",
 			"font_style": "none"
 		},
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(comment)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
-			"foreground": "var(comment)"
+			"foreground": "var(lavender)"
 		},
 		{
 			"name": "Transition",
 			"scope": "text.fountain entity.name.tag",
-			"foreground": "var(teal)"
+			"foreground": "var(pink)"
 		},
 		{
 			"name": "Bold",
@@ -224,7 +222,7 @@
 		},
 		{
 			"scope": "text.fountain punctuation",
-			"foreground": "var(comment)"
+			"foreground": "var(comment)",
 		},
 
 		// JSON KEYS
@@ -233,52 +231,52 @@
 		{
 			"name": "JSON Punctuation",
 			"scope": "source.json punctuation",
-			"foreground": "var(comment)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "JSON Key - Level 0",
 			"scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 1",
 			"scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 2",
 			"scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 3",
 			"scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 4",
 			"scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 5",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 6",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 7",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 8",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		}
 	]
 }
