@@ -17,7 +17,7 @@ Originally a single theme, Circus Freak has now been turned into a collection.
 ## INSTALLATION & SETTINGS
 Package Control coming soon!
 
-### SUBLIME
+#### SUBLIME
 + Download the [latest Sublime release](https://github.com/thehfd/circus-freak/releases).
 + Unzip and rename folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
@@ -30,7 +30,7 @@ Package Control coming soon!
 }
 ```
 
-### ITERM
+#### ITERM
 + Download the [latest iTerm release](https://github.com/thehfd/circus-freak/releases).
 + Unzip the file.
 + Navigate to `Preferences` > `Profiles` > `Colors`
@@ -39,19 +39,17 @@ Package Control coming soon!
 + Re-open the `Color Presets` dropdown to find the imported selection in the list.
 
 ## CUSTOMISATION
-##### USER PREFERENCES
+#### USER PREFERENCES
 Tweak the sidebar icon and button with the one of the User Preferences presets below.  Not including one will default them to a shade of grey.
 
 ```json
 {
-	// Circus Freak
 	"circus_accent_red": true,
 	"circus_accent_yellow": true,
 	"circus_accent_blue": true,
 	"circus_accent_purple": true,
 	"circus_accent_pink": true,
 
-	// Mystery
 	"mystery_accent_red": true,
 	"mystery_accent_yellow": true,
 	"mystery_accent_blue": true,
@@ -60,30 +58,26 @@ Tweak the sidebar icon and button with the one of the User Preferences presets b
 }
 ```
 
-##### FONT SETTINGS OVERRIDE
-Paste the following into a file named after your chosen UI theme, i.e: "Mystery.sublime-theme", and save it to your user directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.
+#### FONT SETTINGS OVERRIDE
+Paste the following into a file named after your chosen UI theme, i.e: `Mystery.sublime-theme`, and save it to your user directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.
 
 ```json
 [
-	// sidebar heading name font / size
 	{
 		"class": "sidebar_heading",
 		"font.face": "SF Mono Light",
 		"font.size": 12,
 	},
-	// sidebar file name font / size
 	{
 		"class": "sidebar_label",
 		"font.face": "SF Mono Light",
 		"font.size": 12,
 	},
-	// tab name font / size
 	{
 		"class": "tab_label",
 		"font.face": "SF Mono Light",
 		"font.size": 12,
 	},
-	// height of open tabs
 	{
 		"class": "tabset_control",
 		"tab_height": 34
@@ -91,10 +85,10 @@ Paste the following into a file named after your chosen UI theme, i.e: "Mystery.
 ]
 ```
 
-##### CREDITATION
+## CREDITATION
 Circus Freak's UI theme is a fork of [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
 
-##### TO DO
+## TO DO
 Circus Freak themes are tested on large code bases that make expansive use of the syntax, to ensure the best possible highlighting is available for the most commonly used syntax packages.
 
 The below list is comprises languages that have only been minimally tested, but are otherwise fully supported.  Do not hesitate to submit an issue if \<your favourite language feature\> is found lacking in this collection.
