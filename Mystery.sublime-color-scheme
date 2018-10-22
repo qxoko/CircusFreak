@@ -1,17 +1,16 @@
 {
 	"name": "Mystery",
 	"author": "Harley Denham",
-	"version": "0.0.4",
+	"version": "0.1.0",
 
 	"variables":
 	{
 		"white": "#DDDDDD",
 		"comment": "#666666",
 		"halftone": "#999999",
-		"bg_lighter": "#272829",
 		"bg_grey": "#1F2021",
 		"bg_darker": "#18191A",
-		"deep_purple": "#767ca1",
+		"bg_lighter": "#272829",
 		"red": "#bc506d",
 		"teal": "#3090a2",
 		"pink": "#D09BB3",
@@ -19,6 +18,7 @@
 		"purple": "#946c96",
 		"yellow": "#d3daa6",
 		"lavender": "#A5A5C1",
+		"deep_purple": "#767ca1",
 		"selection": "#323334"
 	},
 
@@ -182,13 +182,11 @@
 			"name": "Synopses",
 			"scope": "text.fountain meta.diff",
 			"foreground": "var(halftone)",
-			"font_style": "none"
 		},
 		{
 			"name": "Notes",
 			"scope": "text.fountain variable.parameter",
 			"foreground": "var(halftone)",
-			"font_style": "none"
 		},
 		{
 			"name": "Page Break",
@@ -198,7 +196,7 @@
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
-			"foreground": "var(lavender)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Transition",

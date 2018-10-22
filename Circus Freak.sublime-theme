@@ -572,7 +572,6 @@
 	{
 		"class": "sidebar_heading",
 		"color": [151,151,151],
-		"font.bold": true
 	},
 	// sidebar heading selected
 	{
@@ -582,9 +581,7 @@
 	// sidebar entry
 	{
 		"class": "sidebar_label",
-		"color": [101,101,101],
-		"font.bold": false,
-		"font.italic": false
+		"color": [101,101,101]
 	},
 	// sidebar folder entry
 	{

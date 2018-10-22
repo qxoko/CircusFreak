@@ -1,9 +1,13 @@
 # Circus Freak Collective
 A clean, dark theme collection for Sublime Text and iTerm
 
-![](screenshots/sublime.png)
+##### CIRCUS FREAK
+![](screenshots/freak_iterm.png)
 
-The font used in all screenshots is SF Mono.
+##### MYSTERY
+![](screenshots/mystery_iterm.png)
+
+The font used in all screenshots is San Francisco Mono.
 
 ## MANIFESTO
 Circus Freak was created with Fountain, Python and Lua in mind.  It supports [Fountainhead](https://packagecontrol.io/packages/Fountainhead).
@@ -11,12 +15,10 @@ Circus Freak was created with Fountain, Python and Lua in mind.  It supports [Fo
 Originally a single theme, Circus Freak has now been turned into a collection.
 
 ## INSTALLATION & SETTINGS
-Package Control coming soon!
-
 + Download the [latest release](https://github.com/thehfd/circus-freak/releases)
 + Unzip and rename folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
-+ Use the command palette / preferences menu to set a Circus Freak theme and scheme, or include the below into your User Preferences (replace `Mystery` with your chosen theme):
++ Use the command palette / preferences menu to set a Circus Freak theme and scheme, or paste the two lines below into your User Preferences (replace `Mystery` with your chosen theme):
 
 ```json
 {
@@ -27,7 +29,7 @@ Package Control coming soon!
 
 ## CUSTOMISATION
 ##### USER PREFERENCES
-Tweak the sidebar icon and button with the User Preferences presets below.  Not including one will default them to a shade of grey.
+Tweak the sidebar icon and button with the one of the User Preferences presets below.  Not including one will default them to a shade of grey.
 
 ```json
 {
@@ -48,24 +50,32 @@ Tweak the sidebar icon and button with the User Preferences presets below.  Not 
 ```
 
 ##### FONT SETTINGS OVERRIDE
-Paste the following into a file named after your chosen UI theme, i.e: "Mystery.sublime-theme", and save it to your user directory.  This is the setting used in the screenshots above to apply SF Mono to the entire UI.
+Paste the following into a file named after your chosen UI theme, i.e: "Mystery.sublime-theme", and save it to your user directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.
 
 ```json
 [
-	{
-		"class": "tab_label",
-		"font.face": "SF Mono Light",
-		"font.size": 12,
-	},
+	// sidebar heading name font / size
 	{
 		"class": "sidebar_heading",
 		"font.face": "SF Mono Light",
 		"font.size": 12,
 	},
+	// sidebar file name font / size
 	{
 		"class": "sidebar_label",
 		"font.face": "SF Mono Light",
 		"font.size": 12,
+	},
+	// tab name font / size
+	{
+		"class": "tab_label",
+		"font.face": "SF Mono Light",
+		"font.size": 12,
+	},
+	// height of open tabs
+	{
+		"class": "tabset_control",
+		"tab_height": 34
 	}
 ]
 ```

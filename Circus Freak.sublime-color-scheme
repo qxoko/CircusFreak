@@ -1,36 +1,37 @@
 {
 	"name": "Circus Freak",
 	"author": "Harley Denham",
-	"version": "0.2.2",
+	"version": "0.3.0",
 
 	"variables":
 	{
-		"fg": "#DDDDDD",
-		"bg": "#1F2021",
+		"white": "#DDDDDD",
 		"comment": "#666666",
-		"dark": "#18191A",
-		"light": "#272829",
-		"yellow": "#FFBA67",
-		"pink": "#E67394",
+		"halftone": "#999999",
+		"bg_grey": "#1F2021",
+		"bg_darker": "#18191A",
+		"bg_lighter": "#272829",
 		"red": "#FD4B70",
+		"pink": "#E67394",
 		"blue": "#84CAD3",
-		"purple": "#AE81AA",
 		"green": "#9CDC67",
+		"purple": "#AE81AA",
+		"yellow": "#FFBA67",
 		"selection": "#323334"
 	},
 
 	"globals":
 	{
-		"background": "var(bg)",
-		"foreground": "var(fg)",
-		"caret": "var(fg)",
-		"line_highlight": "var(light)",
-		"gutter": "var(bg)",
+		"background": "var(bg_grey)",
+		"foreground": "var(white)",
+		"caret": "var(white)",
+		"line_highlight": "var(bg_lighter)",
+		"gutter": "var(bg_grey)",
 		"gutter_foreground": "var(comment)",
 		"highlight": "var(comment)",
 		"find_highlight": "var(red)",
-		"find_highlight_foreground": "var(bg)",
-		"guide": "var(light)",
+		"find_highlight_foreground": "var(bg_grey)",
+		"guide": "var(bg_lighter)",
 		"active_guide": "var(comment)",
 		"stack_guide": "var(comment)",
 		"selection": "var(selection)",
@@ -38,9 +39,9 @@
 		"brackets_foreground": "var(comment)",
 		"misspelling": "var(comment)",
 		"fold_marker": "var(blue)",
-		"minimap_border": "var(fg)",
+		"minimap_border": "var(white)",
 		"accent": "var(red)",
-		"shadow": "var(dark)",
+		"shadow": "var(bg_darker)",
 		"shadow_width": "10",
 	},
 
@@ -50,7 +51,7 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"background": "var(red)",
-			"foreground": "var(fg)",
+			"foreground": "var(white)",
 		},
 		{
 			"name": "Comment",
@@ -143,14 +144,14 @@
 			"foreground": "var(comment)"
 		},
 
-		// FOUNTAIN
-		// OPTIMISED FOR FOUNTAINHEAD PACKAGE
+		// FOUNTAIN SUPPORT
+		// DESIGNED FOR FOUNTAINHEAD PACKAGE
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
-			"foreground": "var(bg)",
-			"background": "var(fg)",
-			"selection_foreground": "var(fg)",
+			"foreground": "var(bg_grey)",
+			"background": "var(white)",
+			"selection_foreground": "var(white)",
 			"font_style": "bold"
 		},
 		{
@@ -162,12 +163,12 @@
 		{
 			"name": "Parentheticals",
 			"scope": "text.fountain entity.other.inherited-class",
-			"foreground": "var(fg)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Dialogue",
 			"scope": "text.fountain dialogue",
-			"foreground": "var(fg)",
+			"foreground": "var(white)",
 			"font_style": "italic"
 		},
 		{
@@ -178,24 +179,22 @@
 		{
 			"name": "Synopses",
 			"scope": "text.fountain meta.diff",
-			"foreground": "var(comment)",
-			"font_style": "none"
+			"foreground": "var(halftone)",
 		},
 		{
 			"name": "Notes",
 			"scope": "text.fountain variable.parameter",
-			"foreground": "var(yellow)",
-			"font_style": "none"
+			"foreground": "var(halftone)",
 		},
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(comment)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
-			"foreground": "var(comment)"
+			"foreground": "var(halftone)"
 		},
 		{
 			"name": "Transition",
@@ -233,47 +232,47 @@
 		{
 			"name": "JSON Key - Level 0",
 			"scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 1",
 			"scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 2",
 			"scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 3",
 			"scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 4",
 			"scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 5",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 6",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 7",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "JSON Key - Level 8",
 			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(fg)"
+			"foreground": "var(white)"
 		}
 	]
 }

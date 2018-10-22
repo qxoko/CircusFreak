@@ -31,7 +31,7 @@
 	{
 		"class": "tabset_control",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // light
+		"layer0.tint": [39,40,41],
 		"layer0.inner_margin": 0,
 		"layer0.opacity": 1,
 		"content_margin": 0,
@@ -58,7 +58,7 @@
 		"max_margin_trim": 0,
 		"hit_test_level": 0,
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // light
+		"layer0.tint": [39,40,41],
 		"layer0.inner_margin": [5, 5],
 		"layer0.opacity": 1
 	},
@@ -78,7 +78,7 @@
 		"class": "tab_control",
 		"attributes": ["selected"],
 		"layer0.texture": "",
-		"layer0.tint": [31,32,33] // darker
+		"layer0.tint": [31,32,33]
 	},
 	// tab dirty state (close button hidden)
 	{
@@ -94,7 +94,7 @@
 		"class": "tab_close_button",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": 0
 	},
@@ -117,7 +117,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control"}],
 		"attributes": ["hover"],
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1
 	},
 	// tab dirty button
@@ -125,7 +125,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1
 	},
 	{
@@ -133,7 +133,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1
 	},
 	// tab highlight button
@@ -142,7 +142,7 @@
 		"settings": ["mystery_accent_purple"],
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1
 	},
 	{
@@ -151,7 +151,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1,
 	},
 	{
@@ -159,7 +159,7 @@
 		"settings": ["mystery_accent_yellow"],
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [211,218,166], // yellow
+		"layer0.tint": [211,218,166],
 		"layer0.opacity": 1
 	},
 	{
@@ -168,7 +168,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [211,218,166], // yellow
+		"layer0.tint": [211,218,166],
 		"layer0.opacity": 1,
 	},
 	{
@@ -176,7 +176,7 @@
 		"settings": ["mystery_accent_red"],
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [188,80,109], // red
+		"layer0.tint": [188,80,109],
 		"layer0.opacity": 1
 	},
 	{
@@ -185,7 +185,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [188,80,109], // red
+		"layer0.tint": [188,80,109],
 		"layer0.opacity": 1,
 	},
 	{
@@ -193,7 +193,7 @@
 		"settings": ["mystery_accent_blue"],
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [48,144,162], // blue
+		"layer0.tint": [48,144,162],
 		"layer0.opacity": 1
 	},
 	{
@@ -202,7 +202,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [48,144,162], // blue
+		"layer0.tint": [48,144,162],
 		"layer0.opacity": 1,
 	},
 	{
@@ -210,7 +210,7 @@
 		"settings": ["mystery_accent_green"],
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [104,177,162], // green
+		"layer0.tint": [104,177,162],
 		"layer0.opacity": 1
 	},
 	{
@@ -219,7 +219,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [104,177,162], // green
+		"layer0.tint": [104,177,162],
 		"layer0.opacity": 1,
 	},
 
@@ -227,17 +227,17 @@
 	{
 		"class": "tab_label",
 		"fade": true,
-		"fg": [151,151,151], // text-dark
+		"fg": [151,151,151],
 	},
 	{
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["hover"]}],
-		"fg": [221,221,221] // text
+		"fg": [221,221,221]
 	},
 	{
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
-		"fg": [221,221,221] // text
+		"fg": [221,221,221]
 	},
 	{
 		"class": "tab_label",
@@ -251,49 +251,49 @@
 		"class": "show_tabs_dropdown_button",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/tab-dropdown.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.inner_margin": 0,
 		"layer0.opacity": 1
 	},
 	{
 		"class": "show_tabs_dropdown_button",
 		"attributes": ["hover"],
-		"layer0.tint": [151,151,151] // text-dark
+		"layer0.tint": [151,151,151]
 	},
 	// tab scroll left
 	{
 		"class": "scroll_tabs_left_button",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/tab-scroll-left.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.inner_margin": 0,
 		"layer0.opacity": 1
 	},
 	{
 		"class": "scroll_tabs_left_button",
 		"attributes": ["hover"],
-		"layer0.tint": [151,151,151] // text-dark
+		"layer0.tint": [151,151,151]
 	},
 	// tab scroll right
 	{
 		"class": "scroll_tabs_right_button",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/tab-scroll-right.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.inner_margin": 0,
 		"layer0.opacity": 1
 	},
 	{
 		"class": "scroll_tabs_right_button",
 		"attributes": ["hover"],
-		"layer0.tint": [151,151,151] // text-dark
+		"layer0.tint": [151,151,151]
 	},
 
 	// FOLD BUTTONS
 	{
 		"class": "fold_button_control",
 		"layer0.texture": "Circus Freak/ui/folder-closed.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": 0,
 		"content_margin": [8, 8]
@@ -301,7 +301,7 @@
 	{
 		"class": "fold_button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [151,151,151] // text-dark
+		"layer0.tint": [151,151,151]
 	},
 	{
 		"class": "fold_button_control",
@@ -314,7 +314,7 @@
 	{
 		"class": "scroll_bar_control",
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 0],
 		"blur": true
@@ -324,7 +324,7 @@
 		"class": "scroll_bar_control",
 		"attributes": ["horizontal"],
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.inner_margin": [0, 0],
 		"blur": true
 	},
@@ -332,7 +332,7 @@
 	{
 		"class": "scroll_corner_control",
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.inner_margin": [0, 0],
 		"layer0.opacity": 1
 	},
@@ -340,7 +340,7 @@
 	{
 		"class": "puck_control",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0, 0],
 		"content_margin": [3, 12],
@@ -350,7 +350,7 @@
 	{
 		"class": "puck_control",
 		"attributes": ["horizontal"],
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.inner_margin": [0, 0],
 		"content_margin": [12, 3],
 		"blur": false
@@ -372,7 +372,7 @@
 	{
 		"class": "scroll_bar_control",
 		"settings": ["overlay_scroll_bars"],
-		"layer0.tint": [31,32,33], // darker
+		"layer0.tint": [31,32,33],
 		"layer0.inner_margin": [0, 5],
 		"layer0.opacity": 0,
 		"blur": true
@@ -410,7 +410,7 @@
 		"class": "puck_control",
 		"settings": ["overlay_scroll_bars"],
 		"attributes": ["dark"],
-		"layer0.tint": [101,101,101] // text-darkest
+		"layer0.tint": [101,101,101]
 
 	},
 	// overlay light horizontal puck (for dark content)
@@ -418,13 +418,13 @@
 		"class": "puck_control",
 		"settings": ["overlay_scroll_bars"],
 		"attributes": ["horizontal", "dark"],
-		"layer0.tint": [101,101,101] // text-darkest
+		"layer0.tint": [101,101,101]
 	},
 
 	// EMPTY WINDOW BACKGROUND
 	{
 		"class": "sheet_container_control",
-		"layer0.tint": [31,32,33], // darker
+		"layer0.tint": [31,32,33],
 		"layer0.opacity": 1
 	},
 
@@ -432,7 +432,7 @@
 	{
 		"class": "grid_layout_control",
 		"border_size": 1,
-		"border_color": [39,40,41] // dark
+		"border_color": [39,40,41]
 	},
 
 	// MINI MAP
@@ -458,19 +458,19 @@
 	// DIALOG
 	{
 		"class": "dialog",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1
 	},
 
 	// PROGRESS BAR
 	{
 		"class": "progress_bar_control",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "progress_gauge_control",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": [0, 6]
 	},
@@ -479,7 +479,7 @@
 	// general labels
 	{
 		"class": "label_control",
-		"color": [101,101,101] // text-darkest
+		"color": [101,101,101]
 	},
 	// text field labels
 	{
@@ -491,14 +491,14 @@
 		"class": "label_control",
 		"parents": [{"class": "button_control"}],
 		"font.bold": true,
-		"color": [221,221,221] // text
+		"color": [221,221,221]
 	},
 
 	// TOOLTIP
 	// tooltip container
 	{
 		"class": "tool_tip_control",
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.inner_margin": [1, 1],
 		"layer0.opacity": 1,
 		"content_margin": [8, 6]
@@ -506,7 +506,7 @@
 	// tooltip content
 	{
 		"class": "tool_tip_label_control",
-		"color": [221,221,221] // text
+		"color": [221,221,221]
 	},
 
 	// STATUS BAR
@@ -514,7 +514,7 @@
 	{
 		"class": "status_bar",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [2, 2],
 		"content_margin": [8, 4]
@@ -528,7 +528,7 @@
 	{
 		"class": "label_control",
 		"parents": [{"class": "status_bar"}],
-		"color": [101,101,101] // text-darkest
+		"color": [101,101,101]
 	},
 
 	// SIDEBAR
@@ -536,7 +536,7 @@
 	{
 		"class": "sidebar_container",
 		"layer0.opacity": 1,
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.inner_margin": [1, 1, 2, 1],
 		"content_margin": [0, 0, 0, 0]
 	},
@@ -552,7 +552,7 @@
 	// sidebar rows
 	{
 		"class": "tree_row",
-		"layer0.tint": [31,32,33], // dark
+		"layer0.tint": [31,32,33],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": [1, 1]
 	},
@@ -565,7 +565,7 @@
 	// sidebar heading
 	{
 		"class": "sidebar_heading",
-		"color": [151,151,151], // text-dark
+		"color": [151,151,151],
 	},
 	// sidebar heading selected
 	{
@@ -575,20 +575,18 @@
 	// sidebar entry
 	{
 		"class": "sidebar_label",
-		"color": [101,101,101], // text-darkest
-		"font.bold": false,
-		"font.italic": false,
+		"color": [101,101,101]
 	},
 	// sidebar folder entry
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-		"color": [101,101,101] // text-darkest
+		"color": [101,101,101]
 	},
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-		"color": [151,151,151] // text-dark
+		"color": [151,151,151]
 	},
 	{
 		"class": "sidebar_label",
@@ -600,7 +598,7 @@
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [221,221,221] // text
+		"color": [221,221,221]
 	},
 	// sidebar entry transient
 	{
@@ -614,7 +612,7 @@
 	{
 		"class": "close_button",
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": 0,
 		"content_margin": [8, 8]
@@ -634,7 +632,7 @@
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1
 	},
 	// sidebar file close hover
@@ -642,14 +640,14 @@
 		"class": "close_button",
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [118,124,161] // purple
+		"layer0.tint": [118,124,161]
 	},
 	{
 		"class": "close_button",
 		"settings": ["mystery_accent_yellow"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [211,218,166], // yellow
+		"layer0.tint": [211,218,166],
 		"layer0.opacity": 1
 	},
 	{
@@ -657,14 +655,14 @@
 		"settings": ["mystery_accent_yellow"],
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [211,218,166] // yellow
+		"layer0.tint": [211,218,166]
 	},
 	{
 		"class": "close_button",
 		"settings": ["mystery_accent_red"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [188,80,109], // red
+		"layer0.tint": [188,80,109],
 		"layer0.opacity": 1
 	},
 	{
@@ -672,14 +670,14 @@
 		"settings": ["mystery_accent_red"],
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [188,80,109] // red
+		"layer0.tint": [188,80,109]
 	},
 	{
 		"class": "close_button",
 		"settings": ["mystery_accent_blue"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [48,144,162], // blue
+		"layer0.tint": [48,144,162],
 		"layer0.opacity": 1
 	},
 	{
@@ -687,14 +685,14 @@
 		"settings": ["mystery_accent_blue"],
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [48,144,162] // blue
+		"layer0.tint": [48,144,162]
 	},
 	{
 		"class": "close_button",
 		"settings": ["mystery_accent_green"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [104,177,162], // green
+		"layer0.tint": [104,177,162],
 		"layer0.opacity": 1
 	},
 	{
@@ -702,7 +700,7 @@
 		"settings": ["mystery_accent_green"],
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [104,177,162] // green
+		"layer0.tint": [104,177,162]
 	},
 
 	// SIDEBAR - GENERAL FILE ICONS
@@ -711,14 +709,14 @@
 		"class": "disclosure_button_control",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/folder-closed.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": 0
 	},
 	{
 		"class": "disclosure_button_control",
 		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	{
 		"class": "disclosure_button_control",
@@ -750,7 +748,7 @@
 	// sidebar file icons
 	{
 		"class": "icon_file_type",
-		"layer0.tint": [221,221,221], // text
+		"layer0.tint": [221,221,221],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
@@ -758,35 +756,35 @@
 	{
 		"class": "icon_file_type",
 		"settings": ["mystery_accent_purple"],
-		"layer0.tint": [118,124,161], // purple
+		"layer0.tint": [118,124,161],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_file_type",
 		"settings": ["mystery_accent_yellow"],
-		"layer0.tint": [211,218,166], // yellow
+		"layer0.tint": [211,218,166],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_file_type",
 		"settings": ["mystery_accent_red"],
-		"layer0.tint": [188,80,109], // red
+		"layer0.tint": [188,80,109],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_file_type",
 		"settings": ["mystery_accent_blue"],
-		"layer0.tint": [48,144,162], // blue
+		"layer0.tint": [48,144,162],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
 	{
 		"class": "icon_file_type",
 		"settings": ["mystery_accent_green"],
-		"layer0.tint": [104,177,162], // green
+		"layer0.tint": [104,177,162],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
@@ -798,7 +796,7 @@
 		"content_margin": [4, 8],
 		"min_size": [64, 0],
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [8, 8]
 	},
@@ -806,13 +804,13 @@
 	{
 		"class": "button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [31,32,33] // darker
+		"layer0.tint": [31,32,33]
 	},
 	// pressed button state
 	{
 		"class": "button_control",
 		"attributes": ["pressed"],
-		"layer0.tint": [24,25,26] // darkest
+		"layer0.tint": [24,25,26]
 	},
 
 	// TEXT INPUT FIELD
@@ -820,7 +818,7 @@
 	{
 		"class": "text_line_control",
 		"layer0.texture": "",
-		"layer0.tint": [31,32,33], // darker
+		"layer0.tint": [31,32,33],
 		"layer0.opacity": 1,
 		"content_margin": 6
 	},
@@ -829,14 +827,14 @@
 		"class": "dropdown_button_control",
 		"content_margin": [8, 8],
 		"layer0.texture": "Circus Freak/ui/tab-dropdown.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [4, 4]
 	},
 	{
 		"class": "dropdown_button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [151,151,151] // text-dark
+		"layer0.tint": [151,151,151]
 	},
 
 	// PANEL BACKGROUNDS
@@ -844,7 +842,7 @@
 	{
 		"class": "panel_control",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.inner_margin": [0, 0],
 		"layer0.opacity": 1,
 		"content_margin": 0
@@ -854,7 +852,7 @@
 		"class": "overlay_control",
 		"layer0.opacity": 1,
 		"layer1.texture": "",
-		"layer1.tint": [39,40,41], // dark
+		"layer1.tint": [39,40,41],
 		"layer1.inner_margin": [0, 0, 0, 0],
 		"layer1.opacity": 1,
 		"content_margin": 0
@@ -864,14 +862,14 @@
 	{
 		"class": "quick_panel",
 		"row_padding": 8,
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1,
 		"dark_content": true
 	},
 	{
 		"class": "quick_panel_row",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.inner_margin": 8,
 		"layer0.opacity": 1
 	},
@@ -879,47 +877,47 @@
 		"class": "quick_panel_row",
 		"attributes": ["selected"],
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26] // darkest
+		"layer0.tint": [24,25,26]
 	},
 	{
 		"class": "quick_panel_label",
-		"fg": [101,101,101], // text-darkest
-		"match_fg": [151,151,151], // text-dark
-		"selected_fg": [101,101,101], // text-darkest
-		"selected_match_fg": [221,221,221] // text
+		"fg": [101,101,101],
+		"match_fg": [151,151,151],
+		"selected_fg": [101,101,101],
+		"selected_match_fg": [221,221,221]
 	},
 	{
 		"class": "quick_panel_path_label",
-		"fg": [101,101,101], // text-darkest
-		"match_fg": [151,151,151], // text-dark
-		"selected_fg": [101,101,101], // text-darkest
-		"selected_match_fg": [151,151,151] // text-dark
+		"fg": [101,101,101],
+		"match_fg": [151,151,151],
+		"selected_fg": [101,101,101],
+		"selected_match_fg": [151,151,151]
 	},
 	{
 		"class": "quick_panel_score_label",
-		"fg": [101,101,101], // text-darkest
-		"selected_fg": [101,101,101] // text-darkest
+		"fg": [101,101,101],
+		"selected_fg": [101,101,101]
 	},
 
 	// MINI QUICK PANEL
 	{
 		"class": "mini_quick_panel_row",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26] // darkest
+		"layer0.tint": [24,25,26]
 	},
 
 	// CODE COMPLETION DROPDOWN
 	{
 		"class": "popup_control",
 		"content_margin": [0, 0],
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1
 	},
 	{
@@ -928,15 +926,15 @@
 	},
 	{
 		"class": "auto_complete_label",
-		"fg": [101,101,101], // text-darkest
-		"match_fg": [151,151,151], // text-dark
-		"selected_fg": [101,101,101], // text-darkest
-		"selected_match_fg": [151,151,151] // text-dark
+		"fg": [101,101,101],
+		"match_fg": [151,151,151],
+		"selected_fg": [101,101,101],
+		"selected_match_fg": [151,151,151]
 	},
 	{
 		"class": "table_row",
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26], // darkest
+		"layer0.tint": [24,25,26],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": [3, 1]
 	},
@@ -951,14 +949,14 @@
 	{
 		"class": "icon_button_control",
 		"layer1.opacity": 0,
-		"layer0.tint": [39,40,41], // dark
+		"layer0.tint": [39,40,41],
 		"layer0.opacity": 1,
 		"content_margin": 7
 	},
 	{
 		"class": "icon_button_control",
 		"attributes": ["selected"],
-		"layer0.tint": [31,32,33] // darker
+		"layer0.tint": [31,32,33]
 	},
 	// button group left
 	{
@@ -1006,58 +1004,58 @@
 	{
 		"class": "icon_regex",
 		"layer0.texture": "Circus Freak/ui/regex.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	{
 		"class": "icon_regex",
 		"settings": ["mystery_accent_purple"],
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [118,124,161] // purple
+		"layer0.tint": [118,124,161]
 	},
 	// case sensitive search button
 	{
 		"class": "icon_case",
 		"layer0.texture": "Circus Freak/ui/casesens.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	{
 		"class": "icon_case",
 		"settings": ["mystery_accent_purple"],
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [118,124,161] // purple
+		"layer0.tint": [118,124,161]
 	},
 	// match whole word search button
 	{
 		"class": "icon_whole_word",
 		"layer0.texture": "Circus Freak/ui/wholeword.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	{
 		"class": "icon_whole_word",
 		"settings": ["mystery_accent_purple"],
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [118,124,161] // purple
+		"layer0.tint": [118,124,161]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
@@ -1065,27 +1063,27 @@
 	{
 		"class": "icon_context",
 		"layer0.texture": "Circus Freak/ui/context.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	// use search buffer
 	{
 		"class": "icon_use_buffer",
 		"layer0.texture": "Circus Freak/ui/buffer.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 2
@@ -1093,40 +1091,40 @@
 	{
 		"class": "icon_reverse",
 		"layer0.texture": "Circus Freak/ui/reverse.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_reverse",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	// search wrap button
 	{
 		"class": "icon_wrap",
 		"layer0.texture": "Circus Freak/ui/wrap.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 	// search in selection button
 	{
 		"class": "icon_in_selection",
 		"layer0.texture": "Circus Freak/ui/selection.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 3
@@ -1134,14 +1132,14 @@
 	{
 		"class": "icon_preserve_case",
 		"layer0.texture": "Circus Freak/ui/lock.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 4
@@ -1149,13 +1147,13 @@
 	{
 		"class": "icon_highlight",
 		"layer0.texture": "Circus Freak/ui/highlight.png",
-		"layer0.tint": [101,101,101], // text-darkest
+		"layer0.tint": [101,101,101],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221] // text
+		"layer0.tint": [221,221,221]
 	}
 ]
