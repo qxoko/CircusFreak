@@ -3,6 +3,7 @@ old/
 icon_files/
 desktop_icon/
 development/
+releases/
 
 # MAC STUFF
 .DS_Store

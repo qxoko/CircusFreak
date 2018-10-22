@@ -21,7 +21,8 @@ Package Control coming soon!
 + Download the [latest Sublime release](https://github.com/thehfd/circus-freak/releases).
 + Unzip and rename folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
-+ Use the command palette / preferences menu to set a Circus Freak theme and scheme, or paste the two lines below into your User Preferences (replace `Mystery` with your chosen theme):
++ Search for `Circus Freak: Set Theme` in the command palette to preview and set the themes.
++ Alternatively, you can paste the two lines below into your User Preferences (replace `Mystery` with your chosen theme):
 
 ```json
 {
