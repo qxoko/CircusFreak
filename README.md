@@ -15,7 +15,10 @@ Circus Freak was created with Fountain, Python and Lua in mind.  It supports [Fo
 Originally a single theme, Circus Freak has now been turned into a collection.
 
 ## INSTALLATION & SETTINGS
-+ Download the [latest release](https://github.com/thehfd/circus-freak/releases)
+Package Control coming soon!
+
+### SUBLIME
++ Download the [latest Sublime release](https://github.com/thehfd/circus-freak/releases).
 + Unzip and rename folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
 + Use the command palette / preferences menu to set a Circus Freak theme and scheme, or paste the two lines below into your User Preferences (replace `Mystery` with your chosen theme):
@@ -26,6 +29,14 @@ Originally a single theme, Circus Freak has now been turned into a collection.
 	"theme": "Mystery.sublime-theme",
 }
 ```
+
+### ITERM
++ Download the [latest iTerm release](https://github.com/thehfd/circus-freak/releases).
++ Unzip the file.
++ Navigate to `Preferences` > `Profiles` > `Colors`
++ In the bottom-right, select the `Color Presets` dropdown.
++ Use the `Import...` button, select the chosen theme and confirm.
++ Re-open the `Color Presets` dropdown to find the imported selection in the list.
 
 ## CUSTOMISATION
 ##### USER PREFERENCES
