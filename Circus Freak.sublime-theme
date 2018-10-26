@@ -1019,6 +1019,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_regex",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 	// case sensitive search button
 	{
 		"class": "icon_case",
@@ -1032,6 +1038,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_case",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 	// match whole word search button
 	{
 		"class": "icon_whole_word",
@@ -1044,6 +1056,12 @@
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_whole_word",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
@@ -1060,6 +1078,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_context",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 	// use search buffer
 	{
 		"class": "icon_use_buffer",
@@ -1072,6 +1096,12 @@
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_use_buffer",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 2
@@ -1088,6 +1118,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_reverse",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 	// search wrap button
 	{
 		"class": "icon_wrap",
@@ -1101,6 +1137,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_wrap",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 	// search in selection button
 	{
 		"class": "icon_in_selection",
@@ -1113,6 +1155,12 @@
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_in_selection",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 3
@@ -1129,6 +1177,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_preserve_case",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
+	},
 
 	// BOTTOM PANEL ICONS - GROUP 4
 	// highlight results button
@@ -1143,5 +1197,11 @@
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_highlight",
+		"settings": ["circus_accent_red"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [253,75,112]
 	}
 ]

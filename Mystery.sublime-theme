@@ -1072,6 +1072,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_context",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
+	},
 	// use search buffer
 	{
 		"class": "icon_use_buffer",
@@ -1084,6 +1090,12 @@
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_use_buffer",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 2
@@ -1100,6 +1112,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_reverse",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
+	},
 	// search wrap button
 	{
 		"class": "icon_wrap",
@@ -1113,6 +1131,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_wrap",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
+	},
 	// search in selection button
 	{
 		"class": "icon_in_selection",
@@ -1125,6 +1149,12 @@
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_in_selection",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 3
@@ -1141,6 +1171,12 @@
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
 	},
+	{
+		"class": "icon_preserve_case",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
+	},
 
 	// BOTTOM PANEL ICONS - GROUP 4
 	// highlight results button
@@ -1155,5 +1191,11 @@
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.tint": [221,221,221]
+	},
+	{
+		"class": "icon_highlight",
+		"settings": ["mystery_accent_purple"],
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.tint": [118,124,161]
 	}
 ]
