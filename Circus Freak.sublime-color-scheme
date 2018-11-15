@@ -185,6 +185,7 @@
 			"name": "Notes",
 			"scope": "text.fountain variable.parameter",
 			"foreground": "var(halftone)",
+			"font_style": "none"
 		},
 		{
 			"name": "Page Break",
