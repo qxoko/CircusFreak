@@ -60,28 +60,46 @@ Tweak the sidebar icon and button with the one of the User Preferences presets b
 ```
 
 #### FONT SETTINGS OVERRIDE
-Paste the following into a file named after your chosen UI theme, i.e: `Mystery.sublime-theme`, and save it to your user directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.
+Paste the following into a file named after your chosen UI theme, i.e: `Mystery.sublime-theme`, and save it to your `User` directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.  This list of settings is not exhaustive and will be updated as the rest of the settings are discovered.
 
 ```json
 [
 	{
-		"class": "sidebar_heading",
-		"font.face": "SF Mono Light",
-		"font.size": 12,
-	},
-	{
-		"class": "sidebar_label",
-		"font.face": "SF Mono Light",
-		"font.size": 12,
-	},
-	{
 		"class": "tab_label",
 		"font.face": "SF Mono Light",
-		"font.size": 12,
+		"font.size": 13,
 	},
 	{
 		"class": "tabset_control",
 		"tab_height": 34
+	},
+	{
+		"class": "sidebar_heading",
+		"font.face": "SF Mono Light",
+		"font.size": 13,
+	},
+	{
+		"class": "sidebar_label",
+		"font.face": "SF Mono Light",
+		"font.size": 13,
+	},
+	{
+		"class": "quick_panel_label",
+		"font.face": "SF Mono Light",
+		"font.size": 13,
+	},
+	{
+		"class": "quick_panel_path_label",
+		"font.face": "SF Mono Light",
+		"font.size": 11,
+	},
+	{
+		"class": "quick_panel_score_label",
+		"font.face": "SF Mono Light",
+	},
+	{
+		"class": "label_control",
+		"font.face": "SF Mono Light",
 	}
 ]
 ```
@@ -92,7 +110,7 @@ Circus Freak's UI theme is a fork of [amCoder](https://packagecontrol.io/package
 ## TO DO
 Circus Freak themes are tested on large code bases that make expansive use of the syntax, to ensure the best possible highlighting is available for the most commonly used syntax packages.
 
-The below list is comprises languages that have only been minimally tested, but are otherwise fully supported.  Do not hesitate to submit an issue if \<your favourite language feature\> is found lacking in this collection.
+The below list comprises of languages that have only been minimally tested, but are otherwise fully supported.  Do not hesitate to submit an issue if \<your favourite language feature\> is found lacking in this collection.
 
 + HTML / CSS / JS
 + C / C++ / C#
