@@ -18,8 +18,8 @@ Originally a single theme, Circus Freak has now been turned into a collection.
 Package Control coming soon!
 
 #### SUBLIME
-+ Download the [latest Sublime release](https://github.com/thehfd/circus-freak/releases).
-+ Unzip and rename folder to `Circus Freak`.
++ Download the [latest Sublime release](https://github.com/qxoko/circus-freak/releases).
++ Unzip and rename the folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
 + Search for `Circus Freak: Set Theme` in the command palette to preview and set the themes.
 + Alternatively, you can paste the two lines below into your User Preferences (replace `Mystery` with your chosen theme):
@@ -32,7 +32,7 @@ Package Control coming soon!
 ```
 
 #### ITERM
-+ Download the [latest iTerm release](https://github.com/thehfd/circus-freak/releases).
++ Download the [latest iTerm release](https://github.com/qxoko/circus-freak/releases).
 + Unzip the file.
 + Navigate to `Preferences` > `Profiles` > `Colors`
 + In the bottom-right, select the `Color Presets` dropdown.
