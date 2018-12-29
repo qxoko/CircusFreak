@@ -1,22 +1,9 @@
 // [39,40,41]			dark
 // [31,32,33]			darker
 // [24,25,26]			darkest
-
-// [253,75,112]			red
-// [255,186,103]		yellow
-// [174,129,170]		purple
-// [132,202,211]		blue
-// [230,115,148]		pink
-
 // [221,221,221]		text
 // [151,151,151]		text-dark
 // [101,101,101]		text-darkest
-
-// circus_accent_red
-// circus_accent_yellow
-// circus_accent_purple
-// circus_accent_blue
-// circus_accent_pink
 
 [
 	// TITLE BAR
@@ -136,100 +123,11 @@
 		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 		"layer0.texture": "Circus Freak/ui/close.png",
 		"attributes": ["hover"],
-		"layer0.tint": [253,75,112],
+		"layer0.tint": ["accent",1],
 		"layer0.opacity": 1
-	},
-	// tab highlight button
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [253,75,112],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"attributes": ["hover"],
-		"layer0.tint": [253,75,112],
-		"layer0.opacity": 1,
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_yellow"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [255,186,103],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_yellow"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"attributes": ["hover"],
-		"layer0.tint": [255,186,103],
-		"layer0.opacity": 1,
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_purple"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [174,129,170],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_purple"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"attributes": ["hover"],
-		"layer0.tint": [174,129,170],
-		"layer0.opacity": 1,
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_blue"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [132,202,211],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_blue"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"attributes": ["hover"],
-		"layer0.tint": [132,202,211],
-		"layer0.opacity": 1,
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_pink"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [230,115,148],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "tab_close_button",
-		"settings": ["circus_accent_pink"],
-		"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"attributes": ["hover"],
-		"layer0.tint": [230,115,148],
-		"layer0.opacity": 1,
 	},
 
-	//
 	// TAB LABELS
-	//
-
 	{
 		"class": "tab_label",
 		"fade": true,
@@ -638,7 +536,7 @@
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [253,75,112],
+		"layer0.tint": ["accent",1],
 		"layer0.opacity": 1
 	},
 	// sidebar file close hover
@@ -646,68 +544,7 @@
 		"class": "close_button",
 		"attributes": ["hover"],
 		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [253,75,112]
-	},
-
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_yellow"],
-		"attributes": ["dirty"],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [255,186,103],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_yellow"],
-		"attributes": ["hover"],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [255,186,103]
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_purple"],
-		"attributes": ["dirty"],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [174,129,170],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_purple"],
-		"attributes": ["hover"],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [174,129,170]
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_blue"],
-		"attributes": ["dirty"],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [132,202,211],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_blue"],
-		"attributes": ["hover"],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [132,202,211]
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_pink"],
-		"attributes": ["dirty"],
-		"layer0.texture": "Circus Freak/ui/circle.png",
-		"layer0.tint": [230,115,148],
-		"layer0.opacity": 1
-	},
-	{
-		"class": "close_button",
-		"settings": ["circus_accent_pink"],
-		"attributes": ["hover"],
-		"layer0.texture": "Circus Freak/ui/close.png",
-		"layer0.tint": [230,115,148]
+		"layer0.tint": ["accent",1]
 	},
 
 	// SIDEBAR - GENERAL FILE ICONS
@@ -755,42 +592,7 @@
 	// sidebar file icons
 	{
 		"class": "icon_file_type",
-		"layer0.tint": [221,221,221],
-		"layer0.opacity": 1,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_file_type",
-		"settings": ["circus_accent_red"],
-		"layer0.tint": [253,75,112],
-		"layer0.opacity": 1,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_file_type",
-		"settings": ["circus_accent_yellow"],
-		"layer0.tint": [255,186,103],
-		"layer0.opacity": 1,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_file_type",
-		"settings": ["circus_accent_purple"],
-		"layer0.tint": [174,129,170],
-		"layer0.opacity": 1,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_file_type",
-		"settings": ["circus_accent_blue"],
-		"layer0.tint": [132,202,211],
-		"layer0.opacity": 1,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_file_type",
-		"settings": ["circus_accent_pink"],
-		"layer0.tint": [230,115,148],
+		"layer0.tint": ["accent",1],
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
 	},
@@ -1017,13 +819,7 @@
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_regex",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 	// case sensitive search button
 	{
@@ -1036,13 +832,7 @@
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_case",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 	// match whole word search button
 	{
@@ -1055,13 +845,7 @@
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_whole_word",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
@@ -1076,13 +860,7 @@
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_context",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 	// use search buffer
 	{
@@ -1095,13 +873,7 @@
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_use_buffer",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 2
@@ -1116,13 +888,7 @@
 	{
 		"class": "icon_reverse",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_reverse",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 	// search wrap button
 	{
@@ -1135,13 +901,7 @@
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_wrap",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 	// search in selection button
 	{
@@ -1154,13 +914,7 @@
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_in_selection",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 3
@@ -1175,13 +929,7 @@
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_preserve_case",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	},
 
 	// BOTTOM PANEL ICONS - GROUP 4
@@ -1196,12 +944,6 @@
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [221,221,221]
-	},
-	{
-		"class": "icon_highlight",
-		"settings": ["circus_accent_red"],
-		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.tint": [253,75,112]
+		"layer0.tint": ["accent",1]
 	}
 ]

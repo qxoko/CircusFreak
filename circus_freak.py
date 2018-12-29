@@ -10,7 +10,7 @@ class CircusFreakSelectCommand(sublime_plugin.TextCommand):
 		]
 		self.schemes = [
 			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
-			"Packages/Circus Freak/Mystery.sublime-color-scheme",
+			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
 		]
 
 		self.show_panel()
