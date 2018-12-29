@@ -7,12 +7,13 @@ class CircusFreakSelectCommand(sublime_plugin.TextCommand):
 		self.themes = [
 			"Circus Freak",
 			"Mystery",
+			"Peach Fuzz",
 		]
 		self.schemes = [
 			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
 			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
+			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
 		]
-
 		self.show_panel()
 
 	def show_panel(self):
