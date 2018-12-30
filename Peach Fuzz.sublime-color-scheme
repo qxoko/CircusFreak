@@ -41,7 +41,7 @@
 		"misspelling": "var(comment)",
 		"fold_marker": "var(blue)",
 		"minimap_border": "var(white)",
-		"accent": "var(purple)",
+		"accent": "var(yellow)",
 		"shadow": "var(bg_darker)",
 		"shadow_width": "10"
 	},

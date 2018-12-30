@@ -1,9 +1,9 @@
-// [39,40,41]			dark
-// [31,32,33]			darker
-// [24,25,26]			darkest
-// [221,221,221]		text
-// [151,151,151]		text-dark
-// [101,101,101]		text-darkest
+// [39,40,41]       dark
+// [31,32,33]       darker
+// [24,25,26]       darkest
+// [221,221,221]    text
+// [151,151,151]    text-dark
+// [101,101,101]    text-darkest
 
 [
 	// TITLE BAR
@@ -107,7 +107,7 @@
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control"}],
 		"attributes": ["hover"],
-		"layer0.tint": [253,75,112],
+		"layer0.tint": ["accent",1],
 		"layer0.opacity": 1
 	},
 	// tab dirty button
