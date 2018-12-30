@@ -4,30 +4,35 @@ import sublime_plugin
 
 class CircusFreakSelectCommand(sublime_plugin.TextCommand):
 	def run(self, action):
-		self.themes = [
+		self.list = [
 			"Circus Freak",
 			"Mystery",
 			"Peach Fuzz",
 		]
 		self.schemes = [
 			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
-			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
-			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
+			"Packages/Circus Freak/Mystery.sublime-color-scheme",
+			"Packages/Circus Freak/Peach Fuzz.sublime-color-scheme",
+		]
+		self.themes = [
+			"Circus Dark.sublime-theme",
+			"Circus Dark.sublime-theme",
+			"Circus Dark.sublime-theme",
 		]
 		self.show_panel()
 
 	def show_panel(self):
-		self.view.window().show_quick_panel(self.themes, self.on_done, on_highlight=self.on_highlighted)
+		self.view.window().show_quick_panel(self.list, self.on_done, on_highlight=self.on_highlighted)
 
 	def on_done(self, index):
-		theme = self.themes[index] + '.sublime-theme'
+		theme = self.themes[index]
 		self.set_scheme(self.schemes[index])
 		self.set_theme(theme)
 		self.save_settings(theme)
 
 	def on_highlighted(self, index):
 		self.set_scheme(self.schemes[index])
-		self.set_theme(self.themes[index] + '.sublime-theme')
+		self.set_theme(self.themes[index])
 
 	def set_scheme(self, scheme):
 		self.get_settings().set('color_scheme', scheme)
