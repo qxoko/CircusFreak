@@ -1,7 +1,7 @@
 {
 	"name": "Peach Fuzz",
 	"author": "Harley Denham",
-	"version": "0.1.0",
+	"version": "0.1.1",
 
 	"variables":
 	{
@@ -12,9 +12,9 @@
 		"bg_darker": "#18191A",
 		"bg_lighter": "#272829",
 		"red": "#D67C7F",
-		"blue": "#467C8E",
+		"blue": "#57A1B4",
 		"pink": "#D6B4D3",
-		"green": "#5DB9A1",
+		"green": "#9CE7B1",
 		"yellow": "#FEE1BC",
 		"purple": "#8181A6",
 		"selection": "#323334",
