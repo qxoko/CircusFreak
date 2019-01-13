@@ -94,7 +94,6 @@
 			"name": "Function Arguments",
 			"scope": "variable.parameter",
 			"foreground": "var(yellow)",
-			"font_style": "italic"
 		},
 		{
 			"name": "Self",
