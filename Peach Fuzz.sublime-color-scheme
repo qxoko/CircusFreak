@@ -85,7 +85,7 @@
 			"foreground": "var(purple)",
 		},
 		{
-			"name": "Declared Entity",
+			"name": "Entity",
 			"scope": "entity",
 			"foreground": "var(blue)"
 		},
@@ -114,6 +114,21 @@
 			"name": "Logical Operators",
 			"scope": "keyword.operator.logical",
 			"foreground": "var(pink)",
+		},
+		{
+			"name": "Preprocessors",
+			"scope": "meta.preprocessor",
+			"foreground": "var(green)",
+		},
+		{
+			"name": "Declared Entity",
+			"scope": "keyword.entity",
+			"foreground": "var(green)",
+		},
+		{
+			"name": "Support Functions",
+			"scope": "support.class",
+			"foreground": "var(blue)"
 		},
 
 		// MARKDOWN PRIMITIVE
@@ -145,7 +160,7 @@
 		},
 
 		// FOUNTAIN SUPPORT
-		// DESIGNED FOR FOUNTAINHEAD PACKAGE
+		// DESIGNED FOR FOUNTAINHEAD/AUGUST PACKAGES
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
@@ -180,6 +195,7 @@
 			"name": "Synopses",
 			"scope": "text.fountain meta.diff",
 			"foreground": "var(halftone)",
+			"font_style": "italic"
 		},
 		{
 			"name": "Notes",
@@ -190,17 +206,28 @@
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(halftone)"
+			"foreground": "var(comment)"
 		},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
-			"foreground": "var(halftone)"
+			"foreground": "var(comment)"
 		},
 		{
 			"name": "Transition",
 			"scope": "text.fountain entity.name.tag",
-			"foreground": "var(pink)"
+			"foreground": "var(yellow)"
+		},
+		{
+			"name": "Centered",
+			"scope": "text.fountain centered",
+			"foreground": "var(purple)"
+		},
+		{
+			"name": "Lyrics",
+			"scope": "text.fountain lyrics",
+			"foreground": "var(pink)",
+			"font_style": "italic",
 		},
 		{
 			"name": "Bold",
@@ -218,8 +245,9 @@
 			"font_style": "bold italic"
 		},
 		{
-			"scope": "text.fountain punctuation",
-			"foreground": "var(comment)",
+			"scope": "text.fountain markup.hidden",
+			"foreground": "var(selection)",
+			"font_style": "normal"
 		},
 
 		// JSON KEYS
