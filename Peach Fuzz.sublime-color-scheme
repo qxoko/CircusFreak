@@ -1,7 +1,7 @@
 {
 	"name": "Peach Fuzz",
 	"author": "Harley Denham",
-	"version": "0.1.1",
+	"version": "0.2.0",
 
 	"variables":
 	{
@@ -11,6 +11,7 @@
 		"bg_grey": "#1F2021",
 		"bg_darker": "#18191A",
 		"bg_lighter": "#272829",
+
 		"red": "#D67C7F",
 		"blue": "#57A1B4",
 		"pink": "#D6B4D3",
@@ -130,6 +131,12 @@
 			"scope": "support.class",
 			"foreground": "var(blue)"
 		},
+		{
+			"name": "Variable Declarations",
+			"scope": "keyword.variable",
+			"foreground": "var(light_purple)"
+		},
+
 
 		// MARKDOWN PRIMITIVE
 		{
@@ -159,8 +166,9 @@
 			"foreground": "var(comment)"
 		},
 
+
 		// FOUNTAIN SUPPORT
-		// DESIGNED FOR FOUNTAINHEAD/AUGUST PACKAGES
+		// DESIGNED FOR AUGUST PACKAGE
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
@@ -170,10 +178,18 @@
 			"font_style": "bold"
 		},
 		{
+			"name": "Scene Numbers",
+			"scope": "text.fountain entity.name.constant",
+			"foreground": "var(bg_grey)",
+			"background": "var(blue)",
+			"selection_foreground": "var(blue)",
+			"font_style": "bold",
+		},
+		{
 			"name": "Characters",
 			"scope": "text.fountain string",
 			"font_style": "none",
-			"foreground": "var(purple)"
+			"foreground": "var(pink)"
 		},
 		{
 			"name": "Parentheticals",
@@ -189,13 +205,13 @@
 		{
 			"name": "Section",
 			"scope": "text.fountain entity.name.filename",
-			"foreground": "var(red)"
+			"foreground": "var(purple)"
 		},
 		{
 			"name": "Synopses",
 			"scope": "text.fountain meta.diff",
 			"foreground": "var(halftone)",
-			"font_style": "italic"
+			"font_style": "none"
 		},
 		{
 			"name": "Notes",
@@ -206,8 +222,7 @@
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(comment)"
-		},
+			"foreground": "var(comment)"},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
@@ -221,7 +236,7 @@
 		{
 			"name": "Centered",
 			"scope": "text.fountain centered",
-			"foreground": "var(purple)"
+			"foreground": "var(white)"
 		},
 		{
 			"name": "Lyrics",
@@ -245,62 +260,26 @@
 			"font_style": "bold italic"
 		},
 		{
-			"scope": "text.fountain markup.hidden",
+			"scope": "text.fountain markup.other",
 			"foreground": "var(selection)",
 			"font_style": "normal"
 		},
+		{
+			"scope": "text.fountain support.constant",
+			"foreground": "var(red)",
+			"font_style": "normal"
+		},
 
-		// JSON KEYS
-		// IF SOMEONE HAS A BETTER WAY
-		// PLEASE MAKE A PULL REQUEST
+
+		// JSON
 		{
 			"name": "JSON Punctuation",
 			"scope": "source.json punctuation",
 			"foreground": "var(halftone)"
 		},
 		{
-			"name": "JSON Key - Level 0",
-			"scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 1",
-			"scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 2",
-			"scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 3",
-			"scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 4",
-			"scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 5",
-			"scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 6",
-			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 7",
-			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-			"foreground": "var(white)"
-		},
-		{
-			"name": "JSON Key - Level 8",
-			"scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+			"name": "JSON Key",
+			"scope": "source.json meta.mapping.key.json string.quoted.double.json",
 			"foreground": "var(white)"
 		}
 	]
