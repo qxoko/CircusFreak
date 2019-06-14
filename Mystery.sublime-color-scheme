@@ -32,7 +32,7 @@
 		"gutter": "var(bg_grey)",
 		"gutter_foreground": "var(comment)",
 		"highlight": "var(comment)",
-		"find_highlight": "var(deep_purple)",
+		"find_highlight": "var(red)",
 		"find_highlight_foreground": "var(bg_grey)",
 		"guide": "var(bg_lighter)",
 		"active_guide": "var(comment)",
