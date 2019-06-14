@@ -1,23 +1,35 @@
 # Circus Freak Collective
 A clean, dark theme collection for Sublime Text and iTerm
 
-##### CIRCUS FREAK
-![](screenshots/freak_iterm.png)
+#### Circus Freak
 
-##### MYSTERY
-![](screenshots/mystery_iterm.png)
+###### CLEAN PROJECT
+![](https://i.imgur.com/VSBOzwp.png)
+
+###### MESSY PROJECT
+![](https://i.imgur.com/LLZmbLQ.png)
+
+#### Mystery
+
+###### CLEAN PROJECT
+![](https://i.imgur.com/RV3al9w.png)
+
+###### MESSY PROJECT
+![](https://i.imgur.com/THW0ncG.png)
+
+#### Peach Fuzz
+
+###### CLEAN PROJECT
+![](https://i.imgur.com/yh8voGM.png)
+
+###### MESSY PROJECT
+![](https://i.imgur.com/hqoYvaq.png)
 
 The font used in all screenshots is San Francisco Mono.
 
-## MANIFESTO
-Circus Freak was created with Fountain, Python and Lua in mind.  It supports [Fountainhead](https://packagecontrol.io/packages/Fountainhead) and my own rival [August](https://github.com/qxoko/August) package.
+## Installation and Settings
 
-Originally a single theme, Circus Freak has now been turned into a collection.
-
-## INSTALLATION & SETTINGS
-Package Control coming soon!
-
-#### SUBLIME
+#### Sublime Text 3
 + Download the [latest Sublime release](https://github.com/qxoko/CircusFreak/releases).
 + Unzip and rename the folder to `Circus Freak`.
 + Move folder inside the Packages directory: `Preferences > Browse packages...`
@@ -31,7 +43,7 @@ Package Control coming soon!
 }
 ```
 
-#### ITERM
+#### iTerm
 + Download the [latest iTerm release](https://github.com/qxoko/CircusFreak/releases).
 + Unzip the file.
 + Navigate to `Preferences` > `Profiles` > `Colors`
@@ -39,8 +51,8 @@ Package Control coming soon!
 + Use the `Import...` button, select the chosen theme and confirm.
 + Re-open the `Color Presets` dropdown to find the imported selection in the list.
 
-## CUSTOMISATION
-#### FONT SETTINGS OVERRIDE
+## Customisation
+#### Font Settings
 Paste the following into a file named `Circus Dark.sublime-theme`, and save it to your `User` directory.  This is the setting used in the screenshots above to apply San Francisco Mono to the entire UI.  You can also manipulate the tab height.  This list of settings is not exhaustive.  You can consult the theming documentation for Sublime Text 3 to change other single settings.
 
 ```json
@@ -85,5 +97,5 @@ Paste the following into a file named `Circus Dark.sublime-theme`, and save it t
 ]
 ```
 
-## CREDITATION
-Circus Freak's icons are (mostly) from [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
+## Creditation
+Circus Freak's UI theme began as a fork of [amCoder](https://packagecontrol.io/packages/Theme%20-%20amCoder).
