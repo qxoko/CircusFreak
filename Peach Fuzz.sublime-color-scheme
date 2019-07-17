@@ -168,7 +168,7 @@
 
 
 		// FOUNTAIN SUPPORT
-		// DESIGNED FOR AUGUST PACKAGE
+		// DESIGNED FOR WELLSPRING PACKAGE
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
@@ -222,7 +222,8 @@
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(comment)"},
+			"foreground": "var(comment)"
+		},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
@@ -268,6 +269,16 @@
 			"scope": "text.fountain support.constant",
 			"foreground": "var(red)",
 			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain storage",
+			"foreground": "var(green)",
+			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain highlight",
+			"background": "#FFC914",
+			"foreground": "var(bg_grey)",
 		},
 
 

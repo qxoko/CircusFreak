@@ -169,7 +169,7 @@
 
 
 		// FOUNTAIN SUPPORT
-		// DESIGNED FOR AUGUST PACKAGE
+		// DESIGNED FOR WELLSPRING PACKAGE
 		{
 			"name": "Scenes",
 			"scope": "text.fountain entity.name.function",
@@ -177,6 +177,14 @@
 			"background": "var(white)",
 			"selection_foreground": "var(white)",
 			"font_style": "bold"
+		},
+		{
+			"name": "Scene Numbers",
+			"scope": "text.fountain entity.name.constant",
+			"foreground": "var(bg_grey)",
+			"background": "var(blue)",
+			"selection_foreground": "var(blue)",
+			"font_style": "bold",
 		},
 		{
 			"name": "Characters",
@@ -214,12 +222,12 @@
 		{
 			"name": "Page Break",
 			"scope": "text.fountain support.function",
-			"foreground": "var(halftone)"
+			"foreground": "var(comment)"
 		},
 		{
 			"name": "Title",
 			"scope": "text.fountain constant.numeric",
-			"foreground": "var(halftone)"
+			"foreground": "var(comment)"
 		},
 		{
 			"name": "Transition",
@@ -265,6 +273,16 @@
 			"scope": "text.fountain support.constant",
 			"foreground": "var(red)",
 			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain storage",
+			"foreground": "var(green)",
+			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain highlight",
+			"background": "#FFC914",
+			"foreground": "var(bg_grey)",
 		},
 
 
