@@ -13,7 +13,7 @@
 		"bg_lighter": "#272829",
 
 		"red": "#BC506D",
-		"teal": "#3090A2",
+		"blue": "#3090A2",
 		"pink": "#D09BB3",
 		"green": "#68B1A2",
 		"purple": "#946C96",
@@ -41,7 +41,7 @@
 		"brackets_options": "underline",
 		"brackets_foreground": "var(comment)",
 		"misspelling": "var(comment)",
-		"fold_marker": "var(teal)",
+		"fold_marker": "var(blue)",
 		"minimap_border": "var(white)",
 		"accent": "var(deep_purple)",
 		"shadow": "var(bg_darker)",
@@ -89,7 +89,7 @@
 		{
 			"name": "Entity",
 			"scope": "entity",
-			"foreground": "var(teal)"
+			"foreground": "var(blue)"
 		},
 		{
 			"name": "Function Arguments",
