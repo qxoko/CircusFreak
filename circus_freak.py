@@ -8,13 +8,16 @@ class CircusFreakSelectCommand(sublime_plugin.TextCommand):
 			"Circus Freak",
 			"Mystery",
 			"Peach Fuzz",
+			"Tetrachroma",
 		]
 		self.schemes = [
 			"Packages/Circus Freak/Circus Freak.sublime-color-scheme",
 			"Packages/Circus Freak/Mystery.sublime-color-scheme",
 			"Packages/Circus Freak/Peach Fuzz.sublime-color-scheme",
+			"Packages/Circus Freak/Tetrachroma.sublime-color-scheme",
 		]
 		self.themes = [
+			"Circus Dark.sublime-theme",
 			"Circus Dark.sublime-theme",
 			"Circus Dark.sublime-theme",
 			"Circus Dark.sublime-theme",

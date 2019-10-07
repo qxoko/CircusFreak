@@ -1,0 +1,305 @@
+{
+	"name": "Tetrachroma",
+	"author": "Harley Denham",
+	"version": "0.1.0",
+
+	"variables":
+	{
+		"white": "#DDDDDD",
+		"comment": "#666666",
+		"halftone": "#999999",
+		"bg_grey": "#1F2021",
+		"bg_darker": "#18191A",
+		"bg_lighter": "#272829",
+
+		"cyan": "#17BEBB",
+		"green": "#00DE7F",
+		"yellow": "#FFC914",
+		"magenta": "#EC095A",
+
+		"selection": "#323334",
+	},
+
+	"globals":
+	{
+		"background": "var(bg_grey)",
+		"foreground": "var(white)",
+		"caret": "var(white)",
+		"line_highlight": "var(bg_lighter)",
+		"gutter": "var(bg_grey)",
+		"gutter_foreground": "var(comment)",
+		"highlight": "var(comment)",
+		"find_highlight": "var(yellow)",
+		"find_highlight_foreground": "var(bg_grey)",
+		"guide": "var(bg_lighter)",
+		"active_guide": "var(comment)",
+		"stack_guide": "var(comment)",
+		"selection": "var(selection)",
+		"brackets_options": "underline",
+		"brackets_foreground": "var(comment)",
+		"misspelling": "var(comment)",
+		"fold_marker": "var(halftone)",
+		"minimap_border": "var(white)",
+		"accent": "var(magenta)",
+		"shadow": "var(bg_darker)",
+		"shadow_width": "10"
+	},
+
+	"rules":
+	[
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"background": "var(r)",
+			"foreground": "var(white)",
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"foreground": "var(yellow)",
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"foreground": "var(magenta)",
+		},
+		{
+			"name": "Constants",
+			"scope": "constant.language",
+			"foreground": "var(magenta)"
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword.control",
+			"foreground": "var(halftone)"
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"foreground": "var(halftone)",
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"foreground": "var(cyan)"
+		},
+		{
+			"name": "Function Arguments",
+			"scope": "variable.parameter",
+			"foreground": "var(white)",
+		},
+		{
+			"name": "Self",
+			"scope": "variable.language",
+			"foreground": "var(magenta)",
+		},
+		{
+			"name": "Support Functions",
+			"scope": "support.function",
+			"foreground": "var(green)"
+		},
+		{
+			"name": "Class Inheritance",
+			"scope": "entity.other.inherited-class",
+			"foreground": "var(yellow)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Logical Operators",
+			"scope": "keyword.operator.logical",
+			"foreground": "var(white)",
+		},
+		{
+			"name": "Preprocessors",
+			"scope": "meta.preprocessor",
+			"foreground": "var(r)",
+		},
+		{
+			"name": "Declared Entity",
+			"scope": "keyword.entity",
+			"foreground": "var(white)",
+		},
+		{
+			"name": "Support Functions",
+			"scope": "support.class",
+			"foreground": "var(white)"
+		},
+		{
+			"name": "Variable Declarations",
+			"scope": "keyword.variable",
+			"foreground": "var(white)"
+		},
+
+
+		// MARKDOWN PRIMITIVE
+		{
+			"name": "Markdown Lists",
+			"scope": "punctuation.definition.list_item.markdown",
+			"foreground": "var(magenta)"
+		},
+		{
+			"name": "Markdown Links",
+			"scope": "markup.underline.link",
+			"foreground": "var(yellow)"
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": "markup.italic",
+			"font_style": "italic",
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": "markup.bold",
+			"font_style": "bold",
+		},
+		{
+			"name": "Markup Lock Formatters",
+			"scope": "text.html.markdown punctuation.definition",
+			"font_style": "none",
+			"foreground": "var(comment)"
+		},
+
+
+		// FOUNTAIN SUPPORT
+		// DESIGNED FOR WELLSPRING PACKAGE
+		{
+			"name": "Scenes",
+			"scope": "text.fountain entity.name.function",
+			"foreground": "var(bg_grey)",
+			"background": "var(white)",
+			"selection_foreground": "var(white)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Scene Numbers",
+			"scope": "text.fountain entity.name.constant",
+			"foreground": "var(bg_grey)",
+			"background": "var(cyan)",
+			"selection_foreground": "var(cyan)",
+			"font_style": "bold",
+		},
+		{
+			"name": "Characters",
+			"scope": "text.fountain string",
+			"font_style": "none",
+			"foreground": "var(magenta)"
+		},
+		{
+			"name": "Parentheticals",
+			"scope": "text.fountain entity.other.inherited-class",
+			"foreground": "var(halftone)"
+		},
+		{
+			"name": "Dialogue",
+			"scope": "text.fountain dialogue",
+			"foreground": "var(white)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Section",
+			"scope": "text.fountain entity.name.filename",
+			"foreground": "var(cyan)"
+		},
+		{
+			"name": "Synopses",
+			"scope": "text.fountain meta.diff",
+			"foreground": "var(halftone)",
+			"font_style": "none"
+		},
+		{
+			"name": "Notes",
+			"scope": "text.fountain variable.parameter",
+			"foreground": "var(halftone)",
+			"font_style": "none"
+		},
+		{
+			"name": "Page Break",
+			"scope": "text.fountain support.function",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Title",
+			"scope": "text.fountain constant.numeric",
+			"foreground": "var(comment)"
+		},
+		{
+			"name": "Transition",
+			"scope": "text.fountain entity.name.tag",
+			"foreground": "var(yellow)"
+		},
+		{
+			"name": "Centered",
+			"scope": "text.fountain centered",
+			"foreground": "var(white)"
+		},
+		{
+			"name": "Lyrics",
+			"scope": "text.fountain lyrics",
+			"foreground": "var(halftone)",
+			"font_style": "italic",
+		},
+		{
+			"name": "Bold",
+			"scope": "text.fountain markup.changed",
+			"font_style": "bold"
+		},
+		{
+			"name": "Italics",
+			"scope": "text.fountain message.error",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Italics",
+			"scope": "text.fountain markup.inserted",
+			"font_style": "bold italic"
+		},
+		{
+			"scope": "text.fountain markup.other",
+			"foreground": "var(selection)",
+			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain support.constant",
+			"foreground": "var(magenta)",
+			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain storage",
+			"foreground": "var(yellow)",
+			"font_style": "normal"
+		},
+		{
+			"scope": "text.fountain highlight",
+			"background": "var(yellow)",
+			"foreground": "var(bg_grey)",
+		},
+
+
+		// JSON
+		{
+			"name": "JSON Punctuation",
+			"scope": "source.json punctuation",
+			"foreground": "var(halftone)"
+		},
+		{
+			"name": "JSON Key",
+			"scope": "source.json meta.mapping.key.json string.quoted.double.json",
+			"foreground": "var(white)"
+		},
+
+		// EXTRAS
+		{
+			"scope": "hash",
+			"foreground": ["hsl(68, 41%, 75%)", "hsl(344, 45%, 53%)"]
+		},
+		{
+			"scope": "halftone",
+			"foreground": "var(halftone)"
+		}
+	]
+}
