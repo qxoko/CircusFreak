@@ -677,7 +677,7 @@
 	{
 		"class": "quick_panel_row",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41],
+		"layer0.tint": [24,25,26],
 		"layer0.inner_margin": 8,
 		"layer0.opacity": 1
 	},
@@ -685,20 +685,20 @@
 		"class": "quick_panel_row",
 		"attributes": ["selected"],
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26]
+		"layer0.tint": [39,40,41]
 	},
 	{
 		"class": "quick_panel_label",
-		"fg": [101,101,101],
+		"fg": [190,190,190],
 		"match_fg": [151,151,151],
-		"selected_fg": [101,101,101],
+		"selected_fg": [255,255,255],
 		"selected_match_fg": [221,221,221]
 	},
 	{
 		"class": "quick_panel_path_label",
 		"fg": [101,101,101],
 		"match_fg": [151,151,151],
-		"selected_fg": [101,101,101],
+		"selected_fg": [151,151,151],
 		"selected_match_fg": [151,151,151]
 	},
 	{
@@ -711,14 +711,14 @@
 	{
 		"class": "mini_quick_panel_row",
 		"layer0.texture": "",
-		"layer0.tint": [39,40,41],
+		"layer0.tint": [24,25,26],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
 		"layer0.texture": "",
-		"layer0.tint": [24,25,26]
+		"layer0.tint": [39,40,41]
 	},
 
 	// CODE COMPLETION DROPDOWN
