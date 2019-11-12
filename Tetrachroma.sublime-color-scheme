@@ -50,7 +50,7 @@
 		{
 			"name": "Invalid",
 			"scope": "invalid",
-			"background": "var(r)",
+			"background": "var(red)",
 			"foreground": "var(white)",
 		},
 		{
@@ -203,7 +203,7 @@
 		{
 			"name": "Section",
 			"scope": "text.fountain entity.name.filename",
-			"foreground": "var(cyan)"
+			"foreground": "var(magenta)"
 		},
 		{
 			"name": "Synopses",
@@ -270,7 +270,7 @@
 		},
 		{
 			"scope": "text.fountain storage",
-			"foreground": "var(yellow)",
+			"foreground": "var(green)",
 			"font_style": "normal"
 		},
 		{
