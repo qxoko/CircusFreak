@@ -137,6 +137,32 @@
 			"foreground": "var(light_purple)"
 		},
 
+		// little tweaks and overrides
+		{
+			"name": "Maps",
+			"scope": "storage.type.keyword.map",
+			"foreground": "var(white)"
+		},
+		{
+			"name": "Structs",
+			"scope": "entity.name.type",
+			"foreground": "var(yellow)"
+		},
+		{
+			"name": "Structs",
+			"scope": "entity.name.struct",
+			"foreground": "var(yellow)"
+		},
+
+		// variadic selectors
+		{
+			"scope": "keyword.operator.variadic",
+			"foreground": "var(red)"
+		},
+		{
+			"scope": "keyword.operator.unpacking",
+			"foreground": "var(red)"
+		},
 
 		// MARKDOWN PRIMITIVE
 		{
