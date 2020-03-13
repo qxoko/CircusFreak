@@ -151,6 +151,10 @@
 			"scope": "entity.name.struct",
 			"foreground": "var(yellow)"
 		},
+		{
+			"scope": "keyword.other",
+			"foreground": "var(green)"
+		},
 
 		// variadic selectors
 		{
